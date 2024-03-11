@@ -1,0 +1,48 @@
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="15.392044999999998">
+<testsuite name="tests\shopExample-tests.spec.ts" timestamp="2024-03-08T13:26:24.427Z" hostname="" tests="1" failures="1" skipped="0" time="13.838" errors="0">
+<testcase name="Shop Example › Adding items to cart @testing" classname="tests\shopExample-tests.spec.ts" time="13.838">
+<failure message="shopExample-tests.spec.ts:75:9 Adding items to cart @testing" type="FAILURE">
+<![CDATA[  tests\shopExample-tests.spec.ts:75:9 › Shop Example › Adding items to cart @testing ──────────────
+
+    Error: locator.isVisible: Unexpected token "" while parsing selector ""
+    Call log:
+      -   checking visibility of  >> internal:has=".card-wrapper-info-title h4 >> internal:text=\"tv\"i"
+
+
+       at services\steps\shopExample.steps.ts:139
+
+      137 |     let button = await this.shop.getItemCard(item)
+      138 |     console.log(button)
+    > 139 |     button.isVisible()
+          |            ^
+      140 |
+      141 |
+      142 |     }
+
+        at ShopSteps.addToCart (D:\Badin Projects\QAPlayground\services\steps\shopExample.steps.ts:139:12)
+        at D:\Badin Projects\QAPlayground\tests\shopExample-tests.spec.ts:77:9
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\tests-shopExample-tests-Shop-Example-Adding-items-to-cart-testing\test-finished-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\tests-shopExample-tests-Shop-Example-Adding-items-to-cart-testing\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\tests-shopExample-tests-Shop-Example-Adding-items-to-cart-testing\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[ >> internal:has=".card-wrapper-info-title h4 >> internal:text=\"tv\"i"
+
+[[ATTACHMENT|..\test-results\tests-shopExample-tests-Shop-Example-Adding-items-to-cart-testing\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-shopExample-tests-Shop-Example-Adding-items-to-cart-testing\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

@@ -1,0 +1,207 @@
+{
+    "header": {
+        "logo": "",
+        "home": "",
+        "uiPlayground": "",
+        "shopExample": "",
+        "apiTraining": "",
+        "testingPage": "",
+        "whiteboard": "",
+        "logout": ".header-wrapper-logout img",
+        "menu": ""
+    },
+    "login":{
+        "email": "#email",
+        "password": "#password",
+        "loginButton":".login-form-button",
+        "rememberMe":"#remember",
+        "forgotPassword":".login-form-forgot-password"
+    },
+    "uiPlayground": {
+        
+        "components":{
+            "closeMenuButton": "#close-menu-btn",
+            "dropdownButton": ".checklist-open",
+            "componentsMenuItems":".checklist-group-item",
+            "componentsTitle":".checklist-title",
+            "shrinkedComponentsMenu": ".shrink-in",
+            "componentsMenu":".slide-down",
+            "listItems":".list-item-name",
+            "cardTitles":".component-title",
+
+
+
+            
+            "buttons": {
+                "selectAll":"//label[@for='selectAllButtons']",
+                "openNewTabButton":{
+                    "openButton":"#qa-open-new-tab"
+                },
+                "downloadPDF":{
+                    "downloadButton":".download-file"
+                },
+                "mouseHoverButton":{
+                    "hoverMeButton":".mouse-hover-button-wrapper a",
+                    "hoverText": ".mouse-hover-button-wrapper h5"
+                },
+                "openNewWindowButton":{
+                   "openButton":"#qa-open-new-window a.btn-link div"
+                },
+                "showAndHideButton":{
+                    "showButton":".show-and-hide-buttons .btn:nth-child(1)",
+                    "hideButton":".show-and-hide-buttons .btn:nth-child(2)",
+                    "inputField":".input_field"
+                },
+                "uploadFileButton":{
+                        "chooseFile":"#qa-upload-file-button input",
+                        "uploadedFile":".upload-file-button-selected-file p"
+                }
+            },
+            "inputs":{
+                "selectAll":"//label[@for='selectAllInputs']",
+                "calendarInput":{
+                    "dateInput":"#qa-calendar-input input"
+                },
+                "progressBar":{
+                    "startProgress": "#qa-progress-bar button",
+                    "progressBar":".progress-bar-dots",
+                    "button":"#qa-progress-bar > button > div > span"
+                },
+                "radioButtons":{
+                    "radioButtons":".radio-button-container-item"
+                },
+                "checkboxInput":{
+                    "checkboxes":"#qa-checkbox-input label"
+                },
+                "countryInput":{
+                    "input":".the-country-input",
+                    "list":".result"
+                },
+                "rangeSliders":{
+                    "rangeSlider":"#range-slider",
+                    "rangeNumber":".range-slider-wrapper span",
+                    "multiSliderOne":"#multi-slider-one",
+                    "multiSliderTwo":"#multi-slider-two"
+                },
+                "enterVerificationCode":{
+                    "verificationCode":".verification-code-inputs input",
+                    "correctCode":".correct-code",
+                    "incorrectCode":".wrong-code"
+                }
+            },
+            "modals":{
+                "selectAll":"//label[@for='selectAllModals']",
+                "alertButton":{
+                    "alert":"#qa-alert-button .btn",
+                    "alertMessage":".alert-com-modal-content h3",
+                    "okButton":".alert-com-modal-content button"
+                },
+                "confirmButton":{
+                    "confirm":"#qa-confirm-button .btn",
+                    "confirmMessage":".confirm-com-modal-content h3",
+                    "cancelButton":".confirm-com-modal-content-buttons .btn:nth-child(1)",
+                    "okButton":".confirm-com-modal-content-buttons .btn:nth-child(2)"
+                }
+            },
+            "menus":{
+                "selectAll":"//label[@for='selectAllMenus']",
+                "tabs":{
+                    "tabsCardLink":"//*[@class='list-item-name' and contains(text(),'Tabs')]"
+                },
+                "tabsScroll":{
+                    "tabsScrollCardLink":"//*[@class='list-item-name' and contains(text(),'Tabs Scroll')]"
+                },
+                "menu":{
+                    "menuCardLink":"//*[@class='list-item-name' and contains(text(),'Menu')]"
+                }
+            },
+            "other":{
+                "selectAll":"//label[@for='selectAllOther']",
+                "dropdown":{
+                    "dropdownCardLink":"//label[@for='5']",
+                    "dropdownMenu":"//select[@componentname='Dropdown']"
+                    
+                },
+                "incr/decrElement":{
+                    "incr/decrElementCardLink":"//*[@class='list-item-name' and contains(text(),'Incr./decr. element')]"
+                },
+                "dragAndDrop":{
+                    "dragAndDropCardLink":"//*[@class='list-item-name' and contains(text(),'Drag and drop')]",
+                    "droparea1":"#drop-area",
+                    "droparea2":"#drop-area1",
+                    "droparea3":"#drop-area2",
+                    "droparea4":"#drop-area3"
+                },
+                "dropdownScroll":{
+                    "dropdownScrollCardLink":"//*[@class='list-item-name' and text()='Dropdown scroll']"
+                },
+                "previewFile":{
+                    "previewFileCardLink":"//*[@class='list-item-name' and contains(text(),'Preview file')]"
+                  
+                
+                },
+                "scrollToElement":{
+                    "scrollToElementCardLink":"//*[@class='list-item-name' and contains(text(),'Scroll to element')]"
+                },
+                "sortableList":{
+                    "sortableListCardLink":"//*[@class='list-item-name' and contains(text(),'Sortable list')]"
+                },
+                "multiLevelDropdown":{
+                    "multiLevelDropdownCardLink":"//*[@class='list-item-name' and contains(text(),'Multi level dropdown')]"
+                },
+                "uploadFileField":{
+                    "uploadFileFieldCardLink":"//*[@class='list-item-name' and contains(text(),'Upload file field')]",
+                    "uploadFile":".upload-file-field-wrapper",
+                    "downloadButtons":".download-file",
+                    "uploadError":".upload-file-field-wrapper-error"
+                },
+                "table":{
+                    "tableCardLink":"//*[@class='list-item-name' and contains(text(),'Table')]"
+                },
+                "sendMessage":{
+                    "sendMessageCardLink":"//*[@class='list-item-name' and contains(text(),'Send Message')]"
+                },
+                "toDoList":{
+                    "toDoListCardLink":"//*[@class='list-item-name' and contains(text(),'To-Do list')]"
+                },
+                "timer":{
+                    "timerCardLink":"//*[@class='list-item-name' and contains(text(),'Timer')]"
+                }
+            }
+        }
+    },
+    "shopExample":{
+        "sortBy":"select#sort-options",
+        "search":"input[type='search']",
+        "range":"input[type='range']",
+        "reset":".reset button",
+        "itemTitle":".card-wrapper-info-title h4",
+        "itemDescription": ".card-wrapper-info-title h4 span",
+        "itemPrice":".card-wrapper-info-price h3",
+        "itemButton":".card-wrapper-info-buy button",
+        "card":"",
+        "cartIconNumber":""
+    },
+    "footer":{
+        "home": "",
+        "uiPlayground": "",
+        "shopExample": "",
+        "apiTraining": "",
+        "testingPage": "",
+        "whiteboard": "",
+        "socials": {
+            "linkedIn": "",
+            "youTube": "",
+            "spotify": "",
+            "instagram": "",
+            "facebook": ""
+        },
+        "contact": {
+            "companyEmail":"",
+            "companyAddress": "",
+            "companyCity": "",
+            "companyCountry": ""
+        },
+        "scrollToTopButton":""
+    }
+}
