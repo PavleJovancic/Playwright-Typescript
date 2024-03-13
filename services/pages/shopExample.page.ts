@@ -57,8 +57,36 @@ export default class Shop{
         return this.page.locator(selectors.shopExample.itemButton)
     }
 
-    async getItemCard(item: string){
-        return await this.page.locator(selectors.shopExample.card).filter({has: (await this.getItemTitle(item)) })
+    getItemCard(item: string){
+        return this.page.locator(selectors.shopExample.card).filter({hasText: item}).getByRole('button')
+    }
+
+    getCartIcon(){
+        return this.page.locator(selectors.shopExample.cartIcon)
+    }
+
+    getPrice(item){
+        return this.getCartItem(item).locator(selectors.shopExample.price).getByText("Price:")
+    }
+
+    getSubtotalPrice(item){
+        return this.getCartItem(item).locator(selectors.shopExample.subtotalPrice)
+    }
+
+
+    getDecreaseQuantity(item){
+        return this.getCartItem(item).locator(selectors.shopExample.changeQuantity).nth(0)
+    }
+
+    getIncreaseQuantity(item){
+        return this.getCartItem(item).locator(selectors.shopExample.changeQuantity).nth(1)
+    }
+
+    getQuantity(){
+        return this.page.locator(selectors.shopExample.quantity)
+    }
+    getCartItem(item){
+        return this.page.locator(selectors.shopExample.cartItem).filter({hasText: item})
     }
 
     

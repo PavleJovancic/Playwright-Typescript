@@ -72,22 +72,30 @@ test.describe("Shop Example", () => {
         await shopSteps.search("wi")
     })
 
-    test("Adding items to cart @testing", async () => {
+    test("Adding items to cart ", async () => {
     
-        await shopSteps.addToCart('tv')
-        
+        await shopSteps.addToCart('Ethernet CD8 switch')
+        await shopSteps.addToCart('Smartwatch')
+        await shopSteps.addToCart('Portable Charger')
+
+        await shopSteps.cartIconNumber(3)
         
     })
 
-    test("Cart item amount increase ", async () => {
+    test("Cart item amount increase @testing", async () => {
         
-        // Given user is on the "Shop Example" page
-        // When user scrolls down to the item list
-        // And add one to-cart item by clicking on the "Add to cart" button
-        // And clicks on the "Cart" button
-        // And click on the "+" button to add the item quantity
-        // Then the price equals the sum of the quantity of items added
-        
+        await shopSteps.addToCart('Ethernet CD8 switch')
+        await shopSteps.addToCart('Smartwatch')
+        await shopSteps.addToCart('Portable Charger')
+
+        await shopSteps.openCart()
+
+        await shopSteps.increaseItemAmount('Ethernet CD8 switch')
+        await shopSteps.increaseItemAmount('Ethernet CD8 switch')
+        await shopSteps.increaseItemAmount('Smartwatch')
+        await shopSteps.increaseItemAmount('Portable Charger')
+        await shopSteps.increaseItemAmount('Portable Charger')
+        await shopSteps.increaseItemAmount('Portable Charger')
     })
 
     test("Cart item amount decrease", async () => {

@@ -132,14 +132,65 @@ export default class ShopSteps{
     }
 
     async addToCart(item:string){
-
-    await     this.page.waitForTimeout(10000)
+    
     let button = await this.shop.getItemCard(item)
-    console.log(button)
-    button.isVisible()
+    await button.scrollIntoViewIfNeeded()
+    // await button.waitFor({state:"visible"})
+    await button.click()
 
 
     }
+
+    async cartIconNumber(num: number){
+        let cartIcon = this.shop.getCartIcon()
+
+        let cartIconNumber: number
+        let cssValue = await cartIcon.evaluate((element) =>{
+            return window.getComputedStyle(element).getPropertyValue("--numberOfItemsInCart")
+        })
+        cartIconNumber = Number(cssValue.substring(1, cssValue.length -1))
+        
+        expect(cartIconNumber).toEqual(num)
+
+    }
+
+    async subotalPrice(){
+        this.shop.getCartIcon().click()
+
+    }
+
+    async openCart(){
+        await this.shop.getCartIcon().click()
+    }
+
+    async price(item){
+        let text =  await this.shop.getSubtotalPrice(item).innerText()
+        let price = Number(text.replace(',','').slice(0, - 1))
+        return price
+    }
+
+    async increaseItemAmount(item){
+        let text =(await this.shop.getPrice(item).innerText())
+        let initalPrice = Number(text.substring(7, text.length -1))
+        let subtotal = (await this.price(item))
+        // expect(subtotal).toBe(initalPrice)
+        
+        await this.shop.getIncreaseQuantity(item).click()
+        let sum = subtotal + initalPrice
+        
+        expect(await this.price(item)).toBe(Number(sum.toFixed(2)))
+        
+        
+        
+    }
+
+    async decreaseItemAmount(item){
+        await this.shop.getDecreaseQuantity(item).click()
+    }
+
+
+
+
 
 
 

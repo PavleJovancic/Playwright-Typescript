@@ -119,6 +119,7 @@
                 "selectAll":"//label[@for='selectAllOther']",
                 "dropdown":{
                     "dropdownCardLink":"//label[@for='5']",
+                    
                     "dropdownMenu":"//select[@componentname='Dropdown']"
                     
                 },
@@ -179,8 +180,16 @@
         "itemDescription": ".card-wrapper-info-title h4 span",
         "itemPrice":".card-wrapper-info-price h3",
         "itemButton":".card-wrapper-info-buy button",
-        "card":"",
-        "cartIconNumber":""
+        "card":".card-wrapper",
+        "cartIcon":".shop-cart",
+        "cartItem":".cart-container-list-item",
+        "removeFromCart":".remove-from-cart",
+        "changeQuantity":".cart-container-list-item-body-quantity-image",
+        "quantity":".cart-container-list-item-body-quantity p",
+        "price":".cart-container-list-item-body p",
+        "subtotalPrice":".cart-container-list-item-body-total span",
+        "totalPrice":".cart-container-total-price h3",
+        "buyAll":".cart-container-total-price-btn button"
     },
     "footer":{
         "home": "",
