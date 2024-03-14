@@ -189,7 +189,9 @@
         "price":".cart-container-list-item-body p",
         "subtotalPrice":".cart-container-list-item-body-total span",
         "totalPrice":".cart-container-total-price h3",
-        "buyAll":".cart-container-total-price-btn button"
+        "buyAll":".cart-container-total-price-btn button",
+        "succesfullPurchaseMessage":".buy-message-wrapper-item h4",
+        "succesfullPurchaseButton":".buy-message-wrapper-item button"
     },
     "footer":{
         "home": "",

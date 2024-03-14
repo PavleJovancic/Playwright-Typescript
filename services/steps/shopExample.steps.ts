@@ -172,21 +172,50 @@ export default class ShopSteps{
     async increaseItemAmount(item){
         let text =(await this.shop.getPrice(item).innerText())
         let initalPrice = Number(text.substring(7, text.length -1))
-        let subtotal = (await this.price(item))
-        // expect(subtotal).toBe(initalPrice)
-        
+        let subtotal = (await this.price(item)) 
         await this.shop.getIncreaseQuantity(item).click()
         let sum = subtotal + initalPrice
-        
         expect(await this.price(item)).toBe(Number(sum.toFixed(2)))
-        
-        
-        
+           
     }
 
     async decreaseItemAmount(item){
+        let text =(await this.shop.getPrice(item).innerText())
+        let initalPrice = Number(text.substring(7, text.length -1))
+        let subtotal = (await this.price(item)) 
         await this.shop.getDecreaseQuantity(item).click()
+        let subtract = subtotal - initalPrice
+        expect(await this.price(item)).toBe(Number(subtract.toFixed(2)))
     }
+
+    async calculateTotalPrice(){
+        
+        let subotalPrices = await this.shop.getSubtotalPrices()
+    
+        let sum = 0
+        await subotalPrices.forEach(async (el) => {
+            let price = await Number(el.replace(',','').slice(0, - 1))
+            sum = sum + price
+            let fixed = sum.toFixed(2)
+            sum = Number(fixed)
+        })
+    
+        let text = await this.shop.getTotalPrice().innerText()
+    
+        text = text.substring(13, text.length -1)
+        let totalPrice = Number(text.replace(',',""))
+        expect(totalPrice).toEqual(sum)
+
+    }
+
+    async buyProducts(){
+        await this.shop.getBuyAllButton().click()
+        let message = await this.shop.getSuccessfullPurchaseMessage().innerText()
+        expect(message).toBe("Purchase successful")
+        await this.shop.getSuccessfullPurchaseButton().click()
+    }
+
+
 
 
 

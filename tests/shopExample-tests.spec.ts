@@ -82,7 +82,7 @@ test.describe("Shop Example", () => {
         
     })
 
-    test("Cart item amount increase @testing", async () => {
+    test("Buy products @testing", async () => {
         
         await shopSteps.addToCart('Ethernet CD8 switch')
         await shopSteps.addToCart('Smartwatch')
@@ -96,65 +96,18 @@ test.describe("Shop Example", () => {
         await shopSteps.increaseItemAmount('Portable Charger')
         await shopSteps.increaseItemAmount('Portable Charger')
         await shopSteps.increaseItemAmount('Portable Charger')
+
+        await shopSteps.decreaseItemAmount('Smartwatch')
+        await shopSteps.decreaseItemAmount('Portable Charger')
+        await shopSteps.decreaseItemAmount('Portable Charger')
+        await shopSteps.decreaseItemAmount('Ethernet CD8 switch')
+
+        await shopSteps.calculateTotalPrice()
+
+        await shopSteps.buyProducts()
     })
 
-    test("Cart item amount decrease", async () => {
-
-        
-// Given user is on the "Shop Example" page
-// When user scrolls down to the item list
-// And add to cart one item by clicking on the "Add to cart" button
-// And click on the "Cart" button
-// And click on the "+" button to add the item quantity
-// Then the item quantity increased
-// And then click on the "-" button to reduce the item quantity
-// Then the item quantity decrease
-
-    })
-
-    test("Total price calculation in cart", async () => {
-        
-        // Given user is on the "Shop Example" page
-        // When user scrolls down to the item list
-        // And add to cart three (3) items by clicking on the "Add to cart" button
-        // And click on the "Cart" button
-        // Then the price equals the sum of all item prices in the cart
-        
-    })
-
-    test("Erase item from cart", async () => {
-
-        
-// Given user is on the "Shop Example" page
-// When user scrolls down to the item list
-// And add to cart three (3) items by clicking on the "Add to cart" button
-// And click on the "Cart" button
-// Then the items are visible
-// And user clicks on the "Trash bin" icon on the right of the it
-    })
-
-    test("Buy now button check", async () => {
-
-        
-        // Given user is on the "Shop Example" page
-        // When user scrolls down to the item list
-        // And add to cart three (3) items by clicking on the "Add to cart" button
-        // And click on the "Cart" button
-        // Then the cart appears
-        // When user clicks on "Buy all" button
-        // Then the pop-up message appears that the purchase is successfu
-    })
-
-    test(" Back to top button", async () => {
-
-       
-// Given user is on the "Shop Example" page
-// When scrolling down to the bottom of the page
-// And user clicks on the "Scroll-to-top" button
-// Then user is redirected to the top of the page
-
-      
-    })
+    
 
    
     

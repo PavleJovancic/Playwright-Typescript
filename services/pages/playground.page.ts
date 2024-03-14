@@ -20,6 +20,7 @@ getMenuItemLink(item: string): Locator{
 
 getCardLink(text: string): Locator{
     return this.page.locator(selectors.uiPlayground.components.listItems).getByText(text, { exact: true });
+    // return this.page.locator(selectors.uiPlayground.components.listItems).filter({hasText: text})
 };
 
 getCardTitle(text: string): Locator{

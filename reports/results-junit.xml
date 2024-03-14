@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="14.303429">
-<testsuite name="tests\shopExample-tests.spec.ts" timestamp="2024-03-13T13:50:08.083Z" hostname="" tests="1" failures="0" skipped="0" time="12.715" errors="0">
-<testcase name="Shop Example › Cart item amount increase @testing" classname="tests\shopExample-tests.spec.ts" time="12.715">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="15.464027">
+<testsuite name="tests\shopExample-tests.spec.ts" timestamp="2024-03-14T10:41:16.764Z" hostname="" tests="1" failures="0" skipped="0" time="13.791" errors="0">
+<testcase name="Shop Example › Cart item amount increase @testing" classname="tests\shopExample-tests.spec.ts" time="13.791">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\tests-shopExample-tests-Shop-Example-Cart-item-amount-increase-testing\test-finished-1.png]]

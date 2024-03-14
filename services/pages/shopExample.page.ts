@@ -89,6 +89,27 @@ export default class Shop{
         return this.page.locator(selectors.shopExample.cartItem).filter({hasText: item})
     }
 
+    getSubtotalPrices(){
+        return this.page.locator(selectors.shopExample.subtotalPrice).allInnerTexts()
+    }
+
+    getTotalPrice(){
+        return this.page.locator(selectors.shopExample.totalPrice)
+    }
+
+    getBuyAllButton(){
+        return this.page.locator(selectors.shopExample.buyAll)
+    }
+
+    getSuccessfullPurchaseMessage(){
+        return this.page.locator(selectors.shopExample.succesfullPurchaseMessage)
+    }
+
+    getSuccessfullPurchaseButton(){
+        return this.page.locator(selectors.shopExample.succesfullPurchaseButton)
+    }
+
+
     
 
 
