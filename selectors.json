@@ -1,6 +1,7 @@
 {
     "header": {
-        "logo": "",
+        "logo": ".header-wrapper-logo",
+        "navigationBar":"header-wrapper-desktop-nav",
         "home": "",
         "uiPlayground": "",
         "shopExample": "",

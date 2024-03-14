@@ -1,6 +1,6 @@
-import { expect, Locator, Page } from "@playwright/test";
+import { expect, Page } from "@playwright/test";
 import Shop from "../pages/shopExample.page";
-import { text } from "stream/consumers";
+
 
 export default class ShopSteps{
     private page: Page;
