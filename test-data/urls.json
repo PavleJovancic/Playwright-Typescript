@@ -1,5 +1,5 @@
-{
-    "home":"/",
+{   "home":"/",
+    "login":"/login",
     "uiPlayground":"/playground",
     "shopExample":"/shop",
     "apiTraining":"/api-training",

@@ -1,9 +1,9 @@
 {
     "header": {
         "logo": ".header-wrapper-logo",
-        "navigationBar":"header-wrapper-desktop-nav",
+        "navigationBar":".header-wrapper-desktop-nav a",
         "home": "",
-        "uiPlayground": "",
+        "uiPlayground": "//ol[@class='header-wrapper-desktop-nav']/li/a[@href='/playground']",
         "shopExample": "",
         "apiTraining": "",
         "testingPage": "",
@@ -201,12 +201,12 @@
         "apiTraining": "",
         "testingPage": "",
         "whiteboard": "",
-        "socials": {
-            "linkedIn": "",
-            "youTube": "",
-            "spotify": "",
-            "instagram": "",
-            "facebook": ""
+        "socials":{
+            "linkedIn": "img[alt='linkedin-icon']",
+            "youTube": "img[alt='youtube-icon']",
+            "spotify": "img[alt='spotify-icon']",
+            "instagram": "img[alt='instagram-icon']",
+            "facebook": "img[alt='facebook-icon']"
         },
         "contact": {
             "companyEmail":"",
@@ -214,6 +214,7 @@
             "companyCity": "",
             "companyCountry": ""
         },
-        "scrollToTopButton":""
+        "scrollToTopButton":"",
+        "menu":".footer-list-item"
     }
 }

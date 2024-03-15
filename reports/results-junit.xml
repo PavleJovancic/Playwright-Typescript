@@ -1,11 +1,226 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="15.464027">
-<testsuite name="tests\shopExample-tests.spec.ts" timestamp="2024-03-14T10:41:16.764Z" hostname="" tests="1" failures="0" skipped="0" time="13.791" errors="0">
-<testcase name="Shop Example › Cart item amount increase @testing" classname="tests\shopExample-tests.spec.ts" time="13.791">
+<testsuites id="" name="" tests="6" failures="5" skipped="0" errors="0" time="60.668802">
+<testsuite name="tests\footer-tests.spec.ts" timestamp="2024-03-15T14:48:32.531Z" hostname="" tests="6" failures="5" skipped="0" time="50.891" errors="0">
+<testcase name="Footer @footer › Social links" classname="tests\footer-tests.spec.ts" time="15.3">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\tests-shopExample-tests-Shop-Example-Cart-item-amount-increase-testing\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Social-links\test-finished-1.png]]
 
-[[ATTACHMENT|..\test-results\tests-shopExample-tests-Shop-Example-Cart-item-amount-increase-testing\trace.zip]]
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Social-links\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Footer @footer › Footer UIPlayground link" classname="tests\footer-tests.spec.ts" time="7.687">
+<failure message="footer-tests.spec.ts:50:9 Footer UIPlayground link" type="FAILURE">
+<![CDATA[  tests\footer-tests.spec.ts:50:9 › Footer @footer › Footer UIPlayground link ──────────────────────
+
+    Error: locator.click: Unexpected token "" while parsing selector ""
+    Call log:
+      - waiting for  >> internal:text="UI Playground"i
+
+
+       at services\steps\footer.steps.ts:60
+
+      58 |
+      59 |     async openUIPlaygroundLink(){
+    > 60 |         await this.footer.getUIPlaygroundLink().click()
+         |                                                 ^
+      61 |     }
+      62 |
+      63 |     async openShopExampleLink(){
+
+        at FooterSteps.openUIPlaygroundLink (D:\Badin Projects\QAPlayground\services\steps\footer.steps.ts:60:49)
+        at D:\Badin Projects\QAPlayground\tests\footer-tests.spec.ts:51:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\tests-footer-tests-Footer-footer-Footer-UIPlayground-link\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\tests-footer-tests-Footer-footer-Footer-UIPlayground-link\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\tests-footer-tests-Footer-footer-Footer-UIPlayground-link\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-UIPlayground-link\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-UIPlayground-link\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Footer @footer › Footer Shop Example link" classname="tests\footer-tests.spec.ts" time="7.25">
+<failure message="footer-tests.spec.ts:59:9 Footer Shop Example link" type="FAILURE">
+<![CDATA[  tests\footer-tests.spec.ts:59:9 › Footer @footer › Footer Shop Example link ──────────────────────
+
+    Error: locator.click: Unexpected token "" while parsing selector ""
+    Call log:
+      - waiting for  >> internal:text="Shop Example"i
+
+
+       at services\steps\footer.steps.ts:64
+
+      62 |
+      63 |     async openShopExampleLink(){
+    > 64 |         await this.footer.getShopExampleLink().click()
+         |                                                ^
+      65 |     }
+      66 |
+      67 |     async openAPITrainingLink(){
+
+        at FooterSteps.openShopExampleLink (D:\Badin Projects\QAPlayground\services\steps\footer.steps.ts:64:48)
+        at D:\Badin Projects\QAPlayground\tests\footer-tests.spec.ts:60:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\tests-footer-tests-Footer-footer-Footer-Shop-Example-link\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\tests-footer-tests-Footer-footer-Footer-Shop-Example-link\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\tests-footer-tests-Footer-footer-Footer-Shop-Example-link\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Shop-Example-link\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Shop-Example-link\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Footer @footer › Footer API Training link" classname="tests\footer-tests.spec.ts" time="6.835">
+<failure message="footer-tests.spec.ts:65:9 Footer API Training link" type="FAILURE">
+<![CDATA[  tests\footer-tests.spec.ts:65:9 › Footer @footer › Footer API Training link ──────────────────────
+
+    Error: locator.click: Unexpected token "" while parsing selector ""
+    Call log:
+      - waiting for  >> internal:text="API Training"i
+
+
+       at services\steps\footer.steps.ts:68
+
+      66 |
+      67 |     async openAPITrainingLink(){
+    > 68 |         await this.footer.getAPITrainingLink().click()
+         |                                                ^
+      69 |     }
+      70 |
+      71 |     async openTestingPageLink(){
+
+        at FooterSteps.openAPITrainingLink (D:\Badin Projects\QAPlayground\services\steps\footer.steps.ts:68:48)
+        at D:\Badin Projects\QAPlayground\tests\footer-tests.spec.ts:67:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\tests-footer-tests-Footer-footer-Footer-API-Training-link\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\tests-footer-tests-Footer-footer-Footer-API-Training-link\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\tests-footer-tests-Footer-footer-Footer-API-Training-link\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-API-Training-link\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-API-Training-link\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Footer @footer › Footer Testing Page link" classname="tests\footer-tests.spec.ts" time="6.927">
+<failure message="footer-tests.spec.ts:73:9 Footer Testing Page link" type="FAILURE">
+<![CDATA[  tests\footer-tests.spec.ts:73:9 › Footer @footer › Footer Testing Page link ──────────────────────
+
+    Error: locator.click: Unexpected token "" while parsing selector ""
+    Call log:
+      - waiting for  >> internal:text="Whiteboard"i
+
+
+       at services\steps\footer.steps.ts:76
+
+      74 |
+      75 |     async openWhiteboardLink(){
+    > 76 |         await this.footer.getWhiteboardLink().click()
+         |                                               ^
+      77 |     }
+      78 |
+      79 |     async verifyCorrectPage(url, page){
+
+        at FooterSteps.openWhiteboardLink (D:\Badin Projects\QAPlayground\services\steps\footer.steps.ts:76:47)
+        at D:\Badin Projects\QAPlayground\tests\footer-tests.spec.ts:74:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\tests-footer-tests-Footer-footer-Footer-Testing-Page-link\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\tests-footer-tests-Footer-footer-Footer-Testing-Page-link\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\tests-footer-tests-Footer-footer-Footer-Testing-Page-link\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Testing-Page-link\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Testing-Page-link\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Footer @footer › Footer Whiteboard link" classname="tests\footer-tests.spec.ts" time="6.892">
+<failure message="footer-tests.spec.ts:79:9 Footer Whiteboard link" type="FAILURE">
+<![CDATA[  tests\footer-tests.spec.ts:79:9 › Footer @footer › Footer Whiteboard link ────────────────────────
+
+    Error: locator.click: Unexpected token "" while parsing selector ""
+    Call log:
+      - waiting for  >> internal:text="Testing Page"i
+
+
+       at services\steps\footer.steps.ts:72
+
+      70 |
+      71 |     async openTestingPageLink(){
+    > 72 |         await this.footer.getTestingPageLink().click()
+         |                                                ^
+      73 |     }
+      74 |
+      75 |     async openWhiteboardLink(){
+
+        at FooterSteps.openTestingPageLink (D:\Badin Projects\QAPlayground\services\steps\footer.steps.ts:72:48)
+        at D:\Badin Projects\QAPlayground\tests\footer-tests.spec.ts:81:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\tests-footer-tests-Footer-footer-Footer-Whiteboard-link\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\tests-footer-tests-Footer-footer-Footer-Whiteboard-link\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\tests-footer-tests-Footer-footer-Footer-Whiteboard-link\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Whiteboard-link\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Whiteboard-link\trace.zip]]
 ]]>
 </system-out>
 </testcase>

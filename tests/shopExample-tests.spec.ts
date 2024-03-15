@@ -82,7 +82,7 @@ test.describe("Shop Example", () => {
         
     })
 
-    test("Buy products @testing", async () => {
+    test("Buy products", async () => {
         
         await shopSteps.addToCart('Ethernet CD8 switch')
         await shopSteps.addToCart('Smartwatch')

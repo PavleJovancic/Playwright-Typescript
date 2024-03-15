@@ -2,37 +2,39 @@ import { Locator, Page } from "@playwright/test";
 import * as selectors from '../../selectors.json';
 
 export default class Header{
-    private page: Page;
 
     constructor(page: Page){
         this.page = page;
     };
+    private page: Page;
 
-    async getHomeLink(){
+
+    public getHomeLink(){
         return this.page.locator(selectors.header.navigationBar).getByText('Home')
     }
 
-    async getUIPlaygroundLink(){
-        return this.page.locator(selectors.header.navigationBar).getByText('UI Playground')
+    public getUIPlaygroundLink(): Locator {
+        return this.page.locator(selectors.header.navigationBar).filter({hasText: "UI Playground"})
+       
     }
 
-    async getShopExampleLink(){
+    public getShopExampleLink(): Locator{
         return this.page.locator(selectors.header.navigationBar).getByText('Shop Example')
     }
 
-    async getAPITrainingLink(){
+    public getAPITrainingLink(){
         return this.page.locator(selectors.header.navigationBar).getByText('API Training')
     }
 
-    async getTestingPageLink(){
+    public getTestingPageLink(){
         return this.page.locator(selectors.header.navigationBar).getByText('Testing Page')
     }
 
-    async getWhiteboardLink(){
+    public getWhiteboardLink(){
         return this.page.locator(selectors.header.navigationBar).getByText('Whiteboard')
     }   
 
-    async getLogo(){
+    public getLogo(){
         return this.page.locator(selectors.header.logo)
     }
 
