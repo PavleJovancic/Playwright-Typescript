@@ -128,11 +128,10 @@
                     "incr/decrElementCardLink":"//*[@class='list-item-name' and contains(text(),'Incr./decr. element')]"
                 },
                 "dragAndDrop":{
+                    "draggableItem": "#draggable-item",
                     "dragAndDropCardLink":"//*[@class='list-item-name' and contains(text(),'Drag and drop')]",
-                    "droparea1":"#drop-area",
-                    "droparea2":"#drop-area1",
-                    "droparea3":"#drop-area2",
-                    "droparea4":"#drop-area3"
+                    "droparea":".dnd div"
+                 
                 },
                 "dropdownScroll":{
                     "dropdownScrollCardLink":"//*[@class='list-item-name' and text()='Dropdown scroll']"

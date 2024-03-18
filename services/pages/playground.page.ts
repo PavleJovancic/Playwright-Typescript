@@ -1,6 +1,5 @@
 import { Locator, Page } from "playwright/test";
 import * as selectors from '../../selectors.json';
-import * as data from '../../test-data/data.json';
 export default class Playground {
     private page: Page;
 
@@ -363,34 +362,33 @@ getDragAndDropLink(){
 
 
 getDropArea(droparea:number){
-    let locator:Locator
-    if(droparea == 1){
-        locator = this.page.locator(selectors.uiPlayground.components.other.dragAndDrop.droparea1)
-    }
-    if(droparea == 2){
-        locator = this.page.locator(selectors.uiPlayground.components.other.dragAndDrop.droparea2)
-    }
-    if(droparea == 3){
-        locator = this.page.locator(selectors.uiPlayground.components.other.dragAndDrop.droparea3)
-    }
-    if(droparea == 4){
-        locator = this.page.locator(selectors.uiPlayground.components.other.dragAndDrop.droparea4)
-    }
-    return locator
+    return this.page.locator(selectors.uiPlayground.components.other.dragAndDrop.droparea).nth(droparea - 1);
 }
 
 
+getDraggableItem():Locator{
+    return this.page.locator(selectors.uiPlayground.components.other.dragAndDrop.draggableItem);
+};
 
 
-getDraggableItem(){
-    return this.page.locator("#draggable-item")
-}
-
-
-
-getItemFromDropArea(dropArea: number){
-    return this.getDropArea(dropArea).and(this.getDraggableItem())
-}
+getItemFromDropArea(dropArea: number):Locator{
+    // return this.getDropArea(dropArea).and(this.page.locator("#draggable-item"));
+    let loc: Locator
+    if(dropArea == 1){
+        loc = this.page.locator("#drop-area #draggable-item")
+    } 
+    if(dropArea == 2){
+        loc = this.page.locator("#drop-area1 #draggable-item")
+    } 
+    if(dropArea == 3){
+        loc = this.page.locator("#drop-area2 #draggable-item")
+    } 
+    if(dropArea == 4){
+        loc = this.page.locator("#drop-area3 #draggable-item")
+    }
+     
+    return loc
+};
 
 //Dropdown scroll
 
@@ -550,6 +548,9 @@ getAllInstructors(){
     return this.page.locator("td:nth-child(1)")
 }
 
+async getTableRows(){
+    return await this.page.locator(".table-wrapper tbody tr")
+}
 getAllCourses(){
     return this.page.locator("td:nth-child(2)")
 }
