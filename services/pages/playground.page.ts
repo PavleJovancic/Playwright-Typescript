@@ -585,6 +585,20 @@ getSendMessageCardLink(){
     return this.page.locator("label[for='28']")
 }
 
+getMessage(){
+    return this.page.locator(selectors.uiPlayground.components.other.sendMessage.message)
+}
+
+getSendButton(){
+    return this.page.locator(selectors.uiPlayground.components.other.sendMessage.buttons).nth(0)
+}
+
+getClearButton(){
+    return this.page.locator(selectors.uiPlayground.components.other.sendMessage.buttons).nth(1)
+}
+
+
+
 //To-Do List
 
 getToDoListCardLink(){

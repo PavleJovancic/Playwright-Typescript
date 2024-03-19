@@ -160,7 +160,11 @@
                     "tableCardLink":"//*[@class='list-item-name' and contains(text(),'Table')]"
                 },
                 "sendMessage":{
-                    "sendMessageCardLink":"//*[@class='list-item-name' and contains(text(),'Send Message')]"
+                    "sendMessageCardLink":"//*[@class='list-item-name' and contains(text(),'Send Message')]",
+                    "send":"//*[@class='send-message-btns' and contains(text(),'Send)]",
+                    "clear":"//*[@class='send-message-btns' and contains(text(),'Clear)]",
+                    "message":".send-message-success",
+                    "buttons":"//*[@class='send-message-btns']/button"
                 },
                 "toDoList":{
                     "toDoListCardLink":"//*[@class='list-item-name' and contains(text(),'To-Do list')]"

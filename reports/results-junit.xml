@@ -1,11 +1,11 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="8.441475">
-<testsuite name="tests\other-tests.spec.ts" timestamp="2024-03-18T15:09:03.485Z" hostname="" tests="1" failures="0" skipped="0" time="6.824" errors="0">
-<testcase name="Test Other Functionality @other › Table pagination @pagination" classname="tests\other-tests.spec.ts" time="6.824">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="13.876449000000001">
+<testsuite name="tests\other-tests.spec.ts" timestamp="2024-03-19T12:47:23.016Z" hostname="" tests="1" failures="0" skipped="0" time="12.027" errors="0">
+<testcase name="Test Other Functionality @other › Send Message @sendMessage" classname="tests\other-tests.spec.ts" time="12.027">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Table-pagination-pagination\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Send-Message-sendMessage\test-finished-1.png]]
 
-[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Table-pagination-pagination\trace.zip]]
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Send-Message-sendMessage\trace.zip]]
 ]]>
 </system-out>
 </testcase>

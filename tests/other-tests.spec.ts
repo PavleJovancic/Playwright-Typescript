@@ -268,9 +268,13 @@ test.describe("Test Other Functionality @other", () => {
     })
         
         
-    test("Send Message", async () => {
+    test("Send Message @sendMessage", async () => {
                 
         await componentsMenuSteps.openCard(testData.sendMessage)
+
+        await otherSteps.sendMessage()
+
+        await otherSteps.clearMessage()
                 
     })
         

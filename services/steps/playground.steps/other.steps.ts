@@ -219,9 +219,16 @@ export default class OtherSteps{
 
         expect(list).toHaveCount(Number(rows))
     }
+
+    async sendMessage(){
+        await this.playground.getSendButton().click()
+        await expect(await this.playground.getMessage()).toBeVisible({timeout:10000})
+    }
+    async clearMessage(){
+        await this.playground.getClearButton().click()
+        await expect(this.playground.getMessage()).toBeHidden()
+    }
    
-    
-    
-    
+
 
 };
