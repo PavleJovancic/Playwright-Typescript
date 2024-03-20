@@ -8,51 +8,48 @@ export default class Footer{
         this.page = page;
     };
 
-    getLinkedIn(){
-        return this.page.locator(selectors.footer.socials.linkedIn)
-    }
+    getLinkedIn(): Locator{
+        return this.page.locator(selectors.footer.socials.linkedIn);
+    };
 
-    getYoutube(){
-        return this.page.locator(selectors.footer.socials.youTube)
-    }
+    getYoutube(): Locator{
+        return this.page.locator(selectors.footer.socials.youTube);
+    };
 
-    getSpotify(){
-        return this.page.locator(selectors.footer.socials.spotify)
-    }
+    getSpotify(): Locator{
+        return this.page.locator(selectors.footer.socials.spotify);
+    };
 
-    getInstagram(){
-        return this.page.locator(selectors.footer.socials.instagram)
-    }
+    getInstagram(): Locator{
+        return this.page.locator(selectors.footer.socials.instagram);
+    };
 
-    getFacebook(){
-        return this.page.locator(selectors.footer.socials.facebook)
-    }
+    getFacebook(): Locator{
+        return this.page.locator(selectors.footer.socials.facebook);
+    };
 
-    public getHomeLink(){
-        return this.page.locator(selectors.header.menu).getByText('Home')
-    }
+    getHomeLink(): Locator{
+        return this.page.locator(selectors.footer.home);
+    };
 
-    public getUIPlaygroundLink(): Locator {
-        return this.page.locator(selectors.header.menu).getByText('UI Playground')
-       
-    }
+    getUIPlaygroundLink(): Locator {
+        return this.page.locator(selectors.footer.uiPlayground);
+    };
 
-    public getShopExampleLink(): Locator{
-        return this.page.locator(selectors.header.menu).getByText('Shop Example')
-    }
+    getShopExampleLink(): Locator{
+        return this.page.locator(selectors.footer.shopExample);
+    };
 
-    public getAPITrainingLink(){
-        return this.page.locator(selectors.header.menu).getByText('API Training')
-    }
+    getAPITrainingLink(): Locator{
+        return this.page.locator(selectors.footer.apiTraining);
+    };
 
-    public getTestingPageLink(){
-        return this.page.locator(selectors.header.menu).getByText('Testing Page')
-    }
+    getTestingPageLink(): Locator{
+        return this.page.locator(selectors.footer.testingPage);
+    };
 
-    public getWhiteboardLink(){
-        return this.page.locator(selectors.header.menu).getByText('Whiteboard')
-    }   
+    getWhiteboardLink(): Locator{
+        return this.page.locator(selectors.footer.whiteboard);
+    };
 
-
-
-} 
+};

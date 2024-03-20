@@ -4,8 +4,13 @@
     "uiPlayground":"/playground",
     "shopExample":"/shop",
     "apiTraining":"/api-training",
-    "testingPage":"/testing",
+    "testingPage":"/manual-testing",
     "whiteboard":"/whiteboard",
     "badinSoft":"https://www.badinsoft.com/",
+    "youtube":"https://www.youtube.com/channel/UCRRAMb1FYTxE2yH90qstr5Q",
+    "spotify":"https://open.spotify.com/show/7H5AfQ09ujsRNUhMt2Rdgw?si=0a51070ade674e82&nd=1",
+    "linkedin":"https://www.linkedin.com/company/badin-soft/",
+    "instagram":"https://www.instagram.com/badin.soft/",
+    "facebook":"https://www.facebook.com/badinsoft/",
     "loremIpsum":"https://qaplayground.b4din.com/PDF/lorem-ipsum.pdf"
 }

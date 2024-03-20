@@ -2,14 +2,14 @@
     "header": {
         "logo": ".header-wrapper-logo",
         "navigationBar":".header-wrapper-desktop-nav a",
-        "home": "",
-        "uiPlayground": "//ol[@class='header-wrapper-desktop-nav']/li/a[@href='/playground']",
-        "shopExample": "",
-        "apiTraining": "",
-        "testingPage": "",
-        "whiteboard": "",
+        "home": ".header-wrapper-desktop-nav a[href='/']",
+        "uiPlayground": ".header-wrapper-desktop-nav a[href='/playground']",
+        "shopExample": ".header-wrapper-desktop-nav a[href='/shop']",
+        "apiTraining": ".header-wrapper-desktop-nav a[href='/api-training']",
+        "testingPage": ".header-wrapper-desktop-nav a[href='/manual-testing']",
+        "whiteboard": ".header-wrapper-desktop-nav a[href='/whiteboard']",
         "logout": ".header-wrapper-logout img",
-        "menu": ""
+        "menu": ".header-wrapper-burger-menu"
     },
     "login":{
         "email": "#email",
@@ -200,12 +200,13 @@
         "succesfullPurchaseButton":".buy-message-wrapper-item button"
     },
     "footer":{
-        "home": "",
-        "uiPlayground": "",
-        "shopExample": "",
-        "apiTraining": "",
-        "testingPage": "",
-        "whiteboard": "",
+        "home": ".footer-nav a[href='/']",
+        "menu":".footer-list-item",
+        "uiPlayground": ".footer-nav a[href='/playground']",
+        "shopExample": ".footer-nav a[href='/shop']",
+        "apiTraining": ".footer-nav a[href='/api-training']",
+        "testingPage": ".footer-nav a[href='/manual-testing']",
+        "whiteboard": ".footer-nav a[href='/whiteboard']",
         "socials":{
             "linkedIn": "img[alt='linkedin-icon']",
             "youTube": "img[alt='youtube-icon']",
@@ -219,7 +220,6 @@
             "companyCity": "",
             "companyCountry": ""
         },
-        "scrollToTopButton":"",
-        "menu":".footer-list-item"
+        "scrollToTopButton":""
     }
 }

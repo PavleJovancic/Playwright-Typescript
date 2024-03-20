@@ -2,40 +2,41 @@ import { Locator, Page } from "@playwright/test";
 import * as selectors from '../../selectors.json';
 
 export default class Header{
+    private page: Page;
 
     constructor(page: Page){
         this.page = page;
     };
-    private page: Page;
-
-
-    public getHomeLink(){
-        return this.page.locator(selectors.header.navigationBar).getByText('Home')
-    }
+    
+    getHomeLink(){
+        return this.page.locator(selectors.header.home);
+    };
 
     public getUIPlaygroundLink(): Locator {
-        return this.page.locator(selectors.header.navigationBar).filter({hasText: "UI Playground"})
-       
-    }
+        return this.page.locator(selectors.header.uiPlayground);
+    };
 
     public getShopExampleLink(): Locator{
-        return this.page.locator(selectors.header.navigationBar).getByText('Shop Example')
-    }
+        return this.page.locator(selectors.header.shopExample);
+    };
 
-    public getAPITrainingLink(){
-        return this.page.locator(selectors.header.navigationBar).getByText('API Training')
-    }
+    public getAPITrainingLink(): Locator{
+        return this.page.locator(selectors.header.apiTraining);
+    };
 
-    public getTestingPageLink(){
-        return this.page.locator(selectors.header.navigationBar).getByText('Testing Page')
-    }
+    public getTestingPageLink(): Locator{
+        return this.page.locator(selectors.header.testingPage);
+    };
 
-    public getWhiteboardLink(){
-        return this.page.locator(selectors.header.navigationBar).getByText('Whiteboard')
-    }   
+    public getWhiteboardLink(): Locator{
+        return this.page.locator(selectors.header.whiteboard);
+    };
 
-    public getLogo(){
-        return this.page.locator(selectors.header.logo)
-    }
+    public getLogo(): Locator{
+        return this.page.locator(selectors.header.logo);
+    };
 
-}
+    getLogoutButton(): Locator{
+        return this.page.locator(selectors.header.logout);
+    };
+};

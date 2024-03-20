@@ -1,56 +1,56 @@
-<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="26.889073">
-<testsuite name="tests\login-tests.spec.ts" timestamp="2024-03-20T12:19:31.639Z" hostname="" tests="6" failures="0" skipped="0" time="25.191" errors="0">
-<testcase name="Login tests @login › Login validation @validLogin" classname="tests\login-tests.spec.ts" time="5.21">
+<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="83.240601">
+<testsuite name="tests\footer-tests.spec.ts" timestamp="2024-03-20T14:24:03.040Z" hostname="" tests="6" failures="0" skipped="0" time="81.125" errors="0">
+<testcase name="Footer @footer › Social links check @socials" classname="tests\footer-tests.spec.ts" time="29.58">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-validation-validLogin\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Social-links-check-socials\test-finished-1.png]]
 
-[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-validation-validLogin\trace.zip]]
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Social-links-check-socials\trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Login tests @login › Forgot password functionality @forgotPassword" classname="tests\login-tests.spec.ts" time="4.329">
+<testcase name="Footer @footer › Footer UIPlayground link @footerUIPlayground" classname="tests\footer-tests.spec.ts" time="13.023">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Forgot-password-functionality-forgotPassword\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-UIPlayground-link-footerUIPlayground\test-finished-1.png]]
 
-[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Forgot-password-functionality-forgotPassword\trace.zip]]
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-UIPlayground-link-footerUIPlayground\trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Login tests @login › Login validation check when password input field is blank @blankPassword" classname="tests\login-tests.spec.ts" time="4.043">
+<testcase name="Footer @footer › Footer Shop Example link @footerShop" classname="tests\footer-tests.spec.ts" time="9.403">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-vali-a815e-hen-password-input-field-is-blank-blankPassword\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Shop-Example-link-footerShop\test-finished-1.png]]
 
-[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-vali-a815e-hen-password-input-field-is-blank-blankPassword\trace.zip]]
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Shop-Example-link-footerShop\trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Login tests @login › Login validation check when Email input field is blank @blankEmail" classname="tests\login-tests.spec.ts" time="3.968">
+<testcase name="Footer @footer › Footer API Training link @footerAPITraining" classname="tests\footer-tests.spec.ts" time="10.625">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-vali-ce42d-heck-when-Email-input-field-is-blank-blankEmail\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-API-Training-link-footerAPITraining\test-finished-1.png]]
 
-[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-vali-ce42d-heck-when-Email-input-field-is-blank-blankEmail\trace.zip]]
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-API-Training-link-footerAPITraining\trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Login tests @login › Login validation check with invalid Email @invalidEmail" classname="tests\login-tests.spec.ts" time="3.916">
+<testcase name="Footer @footer › Footer Testing Page link @footerTestingPage" classname="tests\footer-tests.spec.ts" time="9.491">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-validation-check-with-invalid-Email-invalidEmail\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Testing-Page-link-footerTestingPage\test-finished-1.png]]
 
-[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-validation-check-with-invalid-Email-invalidEmail\trace.zip]]
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Testing-Page-link-footerTestingPage\trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Login tests @login › Check login with invalid password @invalidPassword" classname="tests\login-tests.spec.ts" time="3.725">
+<testcase name="Footer @footer › Footer Whiteboard link @footerWhiteboard" classname="tests\footer-tests.spec.ts" time="9.003">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Check-login-with-invalid-password-invalidPassword\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Whiteboard-link-footerWhiteboard\test-finished-1.png]]
 
-[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Check-login-with-invalid-password-invalidPassword\trace.zip]]
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Whiteboard-link-footerWhiteboard\trace.zip]]
 ]]>
 </system-out>
 </testcase>
