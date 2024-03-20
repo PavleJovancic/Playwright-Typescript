@@ -52,4 +52,8 @@ export default class Footer{
         return this.page.locator(selectors.footer.whiteboard);
     };
 
+    getMail(): Locator{
+        return this.page.locator(selectors.footer.contact.companyEmail);
+    };
+
 };

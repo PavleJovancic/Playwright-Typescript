@@ -9,6 +9,7 @@ import Header from '../services/pages/header.page';
 import HeaderSteps from '../services/steps/header.steps';
 
 
+
 test.describe("Footer @footer", () => {
     let login: Login,
         loginSteps: LoginSteps,
@@ -60,6 +61,10 @@ test.describe("Footer @footer", () => {
 
     test("Footer Whiteboard link @footerWhiteboard", async () => {
         await footerSteps.openTestingPageLink();
+    });
+
+    test("Email link check @email", async () => {
+        await footerSteps.verifyEmail();
     });
     
 });

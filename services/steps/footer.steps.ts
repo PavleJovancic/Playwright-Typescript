@@ -4,6 +4,7 @@ import Login from "../pages/login.page";
 import LoginSteps from "../steps/login.steps";
 import * as loginData from "../../test-data/loginInformation.json";
 import * as urls from "../../test-data/urls.json";
+import * as testData from "../../test-data/data.json";
 
 export default class FooterSteps{
     private page: Page;
@@ -97,6 +98,10 @@ export default class FooterSteps{
 
     async verifyCorrectPage(url){
         await expect(this.page).toHaveURL(url);
+    };
+
+    async verifyEmail(){
+        await expect(this.footer.getMail()).toHaveAttribute('href', "mailto:" + testData.contact.companyEmail);
     };
 
 }; 

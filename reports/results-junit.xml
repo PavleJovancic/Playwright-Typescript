@@ -1,56 +1,11 @@
-<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="83.240601">
-<testsuite name="tests\footer-tests.spec.ts" timestamp="2024-03-20T14:24:03.040Z" hostname="" tests="6" failures="0" skipped="0" time="81.125" errors="0">
-<testcase name="Footer @footer › Social links check @socials" classname="tests\footer-tests.spec.ts" time="29.58">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="10.279964">
+<testsuite name="tests\footer-tests.spec.ts" timestamp="2024-03-20T14:43:21.861Z" hostname="" tests="1" failures="0" skipped="0" time="8.442" errors="0">
+<testcase name="Footer @footer › Email link check @email" classname="tests\footer-tests.spec.ts" time="8.442">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Social-links-check-socials\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Email-link-check-email\test-finished-1.png]]
 
-[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Social-links-check-socials\trace.zip]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Footer @footer › Footer UIPlayground link @footerUIPlayground" classname="tests\footer-tests.spec.ts" time="13.023">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-UIPlayground-link-footerUIPlayground\test-finished-1.png]]
-
-[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-UIPlayground-link-footerUIPlayground\trace.zip]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Footer @footer › Footer Shop Example link @footerShop" classname="tests\footer-tests.spec.ts" time="9.403">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Shop-Example-link-footerShop\test-finished-1.png]]
-
-[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Shop-Example-link-footerShop\trace.zip]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Footer @footer › Footer API Training link @footerAPITraining" classname="tests\footer-tests.spec.ts" time="10.625">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-API-Training-link-footerAPITraining\test-finished-1.png]]
-
-[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-API-Training-link-footerAPITraining\trace.zip]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Footer @footer › Footer Testing Page link @footerTestingPage" classname="tests\footer-tests.spec.ts" time="9.491">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Testing-Page-link-footerTestingPage\test-finished-1.png]]
-
-[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Testing-Page-link-footerTestingPage\trace.zip]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Footer @footer › Footer Whiteboard link @footerWhiteboard" classname="tests\footer-tests.spec.ts" time="9.003">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Whiteboard-link-footerWhiteboard\test-finished-1.png]]
-
-[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Whiteboard-link-footerWhiteboard\trace.zip]]
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Email-link-check-email\trace.zip]]
 ]]>
 </system-out>
 </testcase>

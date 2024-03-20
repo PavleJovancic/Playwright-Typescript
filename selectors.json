@@ -215,7 +215,7 @@
             "facebook": "img[alt='facebook-icon']"
         },
         "contact": {
-            "companyEmail":"",
+            "companyEmail":".footer-list-mail",
             "companyAddress": "",
             "companyCity": "",
             "companyCountry": ""

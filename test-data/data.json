@@ -45,7 +45,13 @@
         "table":"Table",
         "sendMessage":"Send Message",
         "toDoList":"To-Do list",
-        "timer":"Timer"
+        "timer":"Timer",
+        "contact": {
+            "companyEmail":"office@badin.rs",
+            "companyAddress": "",
+            "companyCity": "",
+            "companyCountry": ""
+        }
 
 
 }
