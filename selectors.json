@@ -16,7 +16,9 @@
         "password": "#password",
         "loginButton":".login-form-button",
         "rememberMe":"#remember",
-        "forgotPassword":".login-form-forgot-password"
+        "forgotPassword":".login-form-forgot-password",
+        "eyeIcon":".login-form-input-show",
+        "loginMessage":".login-form-incorrect-credentials"
     },
     "uiPlayground": {
         

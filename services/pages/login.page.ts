@@ -5,18 +5,35 @@ export default class Login{
     private page: Page;
 
     constructor(page: Page){
-        this.page = page
-    }
+        this.page = page;
+    };
 
-    public getEmailInputField(): Locator{
-        return this.page.locator(selectors.login.email)
-    }
+    getEmailInputField(): Locator{
+        return this.page.locator(selectors.login.email);
+    };
 
-    public getPasswordInputField(): Locator{
-        return this.page.locator(selectors.login.password)
-    }
+    getPasswordInputField(): Locator{
+        return this.page.locator(selectors.login.password);
+    };
 
-    public getLoginButton(): Locator{
-        return this.page.locator(selectors.login.loginButton)
-    }
-}
+    getLoginButton(): Locator{
+        return this.page.locator(selectors.login.loginButton);
+    };
+
+    getForgotPasswordButton(): Locator{
+        return this.page.locator(selectors.login.forgotPassword);
+    };
+
+    getRememberMe(): Locator{
+        return this.page.locator(selectors.login.rememberMe);
+    };
+
+    getEyeIcon(): Locator{
+        return this.page.locator(selectors.login.eyeIcon);
+    };
+
+    getLoginMessage(): Locator{
+        return this.page.locator(selectors.login.loginMessage);
+    };
+
+};

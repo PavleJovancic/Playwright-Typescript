@@ -1,5 +1,6 @@
 {   "home":"/",
     "login":"/login",
+    "forgotPassword": "/forgot-password",
     "uiPlayground":"/playground",
     "shopExample":"/shop",
     "apiTraining":"/api-training",

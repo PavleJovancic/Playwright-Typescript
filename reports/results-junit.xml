@@ -1,11 +1,56 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="13.876449000000001">
-<testsuite name="tests\other-tests.spec.ts" timestamp="2024-03-19T12:47:23.016Z" hostname="" tests="1" failures="0" skipped="0" time="12.027" errors="0">
-<testcase name="Test Other Functionality @other › Send Message @sendMessage" classname="tests\other-tests.spec.ts" time="12.027">
+<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="26.889073">
+<testsuite name="tests\login-tests.spec.ts" timestamp="2024-03-20T12:19:31.639Z" hostname="" tests="6" failures="0" skipped="0" time="25.191" errors="0">
+<testcase name="Login tests @login › Login validation @validLogin" classname="tests\login-tests.spec.ts" time="5.21">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Send-Message-sendMessage\test-finished-1.png]]
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-validation-validLogin\test-finished-1.png]]
 
-[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Send-Message-sendMessage\trace.zip]]
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-validation-validLogin\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Login tests @login › Forgot password functionality @forgotPassword" classname="tests\login-tests.spec.ts" time="4.329">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Forgot-password-functionality-forgotPassword\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Forgot-password-functionality-forgotPassword\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Login tests @login › Login validation check when password input field is blank @blankPassword" classname="tests\login-tests.spec.ts" time="4.043">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-vali-a815e-hen-password-input-field-is-blank-blankPassword\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-vali-a815e-hen-password-input-field-is-blank-blankPassword\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Login tests @login › Login validation check when Email input field is blank @blankEmail" classname="tests\login-tests.spec.ts" time="3.968">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-vali-ce42d-heck-when-Email-input-field-is-blank-blankEmail\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-vali-ce42d-heck-when-Email-input-field-is-blank-blankEmail\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Login tests @login › Login validation check with invalid Email @invalidEmail" classname="tests\login-tests.spec.ts" time="3.916">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-validation-check-with-invalid-Email-invalidEmail\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-validation-check-with-invalid-Email-invalidEmail\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Login tests @login › Check login with invalid password @invalidPassword" classname="tests\login-tests.spec.ts" time="3.725">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Check-login-with-invalid-password-invalidPassword\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Check-login-with-invalid-password-invalidPassword\trace.zip]]
 ]]>
 </system-out>
 </testcase>

@@ -2,5 +2,10 @@
     "email":"badin@badin.rs",
     "password":"badin777!!",
     "superadminEmail":"badinapi@badin.rs",
-    "superadminPassword":"QVpfO5ck5GhPghIwVgkm"
+    "superadminPassword":"QVpfO5ck5GhPghIwVgkm",
+    "blankEmail":"",
+    "blankPassword":"",
+    "invalidEmail":"test@test.com",
+    "invalidPassword":"testPassword111!!",
+    "loginFailedMessage":"You have entered incorrect credentials. Please try again."
 }
