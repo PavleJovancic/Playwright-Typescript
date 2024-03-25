@@ -21,7 +21,6 @@
         "loginMessage":".login-form-incorrect-credentials"
     },
     "uiPlayground": {
-        
         "components":{
             "closeMenuButton": "#close-menu-btn",
             "dropdownButton": ".checklist-open",
@@ -31,10 +30,6 @@
             "componentsMenu":".slide-down",
             "listItems":".list-item-name",
             "cardTitles":".component-title",
-
-
-
-            
             "buttons": {
                 "selectAll":"//label[@for='selectAllButtons']",
                 "openNewTabButton":{
@@ -122,9 +117,7 @@
                 "selectAll":"//label[@for='selectAllOther']",
                 "dropdown":{
                     "dropdownCardLink":"//label[@for='5']",
-                    
                     "dropdownMenu":"//select[@componentname='Dropdown']"
-                    
                 },
                 "incr/decrElement":{
                     "incr/decrElementCardLink":"//*[@class='list-item-name' and contains(text(),'Incr./decr. element')]"
@@ -133,15 +126,12 @@
                     "draggableItem": "#draggable-item",
                     "dragAndDropCardLink":"//*[@class='list-item-name' and contains(text(),'Drag and drop')]",
                     "droparea":".dnd div"
-                 
                 },
                 "dropdownScroll":{
                     "dropdownScrollCardLink":"//*[@class='list-item-name' and text()='Dropdown scroll']"
                 },
                 "previewFile":{
                     "previewFileCardLink":"//*[@class='list-item-name' and contains(text(),'Preview file')]"
-                  
-                
                 },
                 "scrollToElement":{
                     "scrollToElementCardLink":"//*[@class='list-item-name' and contains(text(),'Scroll to element')]"
@@ -216,10 +206,8 @@
         },
         "contact": {
             "companyEmail":".footer-list-mail",
-            "companyAddress": "",
-            "companyCity": "",
-            "companyCountry": ""
+            "companyAddress": ".footer-list-company-info"
         },
-        "scrollToTopButton":""
+        "scrollToTopButton":".scroll-to-top-progress-button"
     }
 }

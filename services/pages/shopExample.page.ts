@@ -99,11 +99,11 @@ export default class Shop{
         return this.page.locator(selectors.shopExample.buyAll);
     };
 
-    getSuccessfullPurchaseMessage(){
+    getSuccessfulPurchaseMessage(){
         return this.page.locator(selectors.shopExample.succesfullPurchaseMessage);
     };
 
-    getSuccessfullPurchaseButton(){
+    getSuccessfulPurchaseButton(){
         return this.page.locator(selectors.shopExample.succesfullPurchaseButton);
     };
 

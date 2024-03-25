@@ -189,8 +189,8 @@ export default class ShopSteps{
 
     async buyProducts(){
         await this.shop.getBuyAllButton().click();
-        let message = await this.shop.getSuccessfullPurchaseMessage().innerText();
+        let message = await this.shop.getSuccessfulPurchaseMessage().innerText();
         expect(message).toBe("Purchase successful");
-        await this.shop.getSuccessfullPurchaseButton().click();
+        await this.shop.getSuccessfulPurchaseButton().click();
     };
 };
