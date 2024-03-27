@@ -1,11 +1,1305 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="10.279964">
-<testsuite name="tests\footer-tests.spec.ts" timestamp="2024-03-20T14:43:21.861Z" hostname="" tests="1" failures="0" skipped="0" time="8.442" errors="0">
-<testcase name="Footer @footer › Email link check @email" classname="tests\footer-tests.spec.ts" time="8.442">
+<testsuites id="" name="" tests="66" failures="6" skipped="0" errors="0" time="284.93224799999996">
+<testsuite name="tests\buttons-tests.spec.ts" timestamp="2024-03-27T15:48:46.950Z" hostname="" tests="6" failures="0" skipped="0" time="82.972" errors="0">
+<testcase name="Test Buttons Functionality @buttons › Open new tab" classname="tests\buttons-tests.spec.ts" time="22.065">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-buttons-tests-Test-Buttons-Functionality-buttons-Open-new-tab\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-buttons-tests-Test-Buttons-Functionality-buttons-Open-new-tab\test-finished-2.png]]
+
+[[ATTACHMENT|..\test-results\tests-buttons-tests-Test-Buttons-Functionality-buttons-Open-new-tab\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Buttons Functionality @buttons › Download PDF" classname="tests\buttons-tests.spec.ts" time="10.303">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-buttons-tests-Test-Buttons-Functionality-buttons-Download-PDF\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-buttons-tests-Test-Buttons-Functionality-buttons-Download-PDF\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Buttons Functionality @buttons › Mouse hover button" classname="tests\buttons-tests.spec.ts" time="11.998">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-buttons-tests-Test-Buttons-Functionality-buttons-Mouse-hover-button\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-buttons-tests-Test-Buttons-Functionality-buttons-Mouse-hover-button\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Buttons Functionality @buttons › Open new window button" classname="tests\buttons-tests.spec.ts" time="16.63">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-buttons-tests-Test-Buttons-Functionality-buttons-Open-new-window-button\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-buttons-tests-Test-Buttons-Functionality-buttons-Open-new-window-button\test-finished-2.png]]
+
+[[ATTACHMENT|..\test-results\tests-buttons-tests-Test-Buttons-Functionality-buttons-Open-new-window-button\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Buttons Functionality @buttons › Show and Hide buttons" classname="tests\buttons-tests.spec.ts" time="13.377">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-buttons-tests-Test-Buttons-Functionality-buttons-Show-and-Hide-buttons\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-buttons-tests-Test-Buttons-Functionality-buttons-Show-and-Hide-buttons\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Buttons Functionality @buttons › Upload file button" classname="tests\buttons-tests.spec.ts" time="8.599">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-buttons-tests-Test-Buttons-Functionality-buttons-Upload-file-button\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-buttons-tests-Test-Buttons-Functionality-buttons-Upload-file-button\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="tests\componentsMenu-tests.spec.ts" timestamp="2024-03-27T15:48:46.950Z" hostname="" tests="6" failures="2" skipped="0" time="94.528" errors="0">
+<testcase name="Components Menu tests @componentsMenu › Components Menu " classname="tests\componentsMenu-tests.spec.ts" time="18.022">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-componentsMenu-tests-Components-Menu-tests-componentsMenu-Components-Menu-\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-componentsMenu-tests-Components-Menu-tests-componentsMenu-Components-Menu-\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Components Menu tests @componentsMenu › Buttons " classname="tests\componentsMenu-tests.spec.ts" time="14.889">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-componentsMenu-tests-Components-Menu-tests-componentsMenu-Buttons-\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-componentsMenu-tests-Components-Menu-tests-componentsMenu-Buttons-\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Components Menu tests @componentsMenu › Inputs " classname="tests\componentsMenu-tests.spec.ts" time="17.512">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-componentsMenu-tests-Components-Menu-tests-componentsMenu-Inputs-\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-componentsMenu-tests-Components-Menu-tests-componentsMenu-Inputs-\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Components Menu tests @componentsMenu › Modals " classname="tests\componentsMenu-tests.spec.ts" time="15.319">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-componentsMenu-tests-Components-Menu-tests-componentsMenu-Modals-\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-componentsMenu-tests-Components-Menu-tests-componentsMenu-Modals-\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Components Menu tests @componentsMenu › Menus " classname="tests\componentsMenu-tests.spec.ts" time="11.644">
+<failure message="componentsMenu-tests.spec.ts:112:9 Menus " type="FAILURE">
+<![CDATA[  tests\componentsMenu-tests.spec.ts:112:9 › Components Menu tests @componentsMenu › Menus  ────────
+
+    Error: expect.toBeVisible: Error: strict mode violation: locator('.component-title').getByText('Tabs') resolved to 2 elements:
+        1) <h3>Tabs Scroll</h3> aka getByRole('heading', { name: 'Tabs Scroll' })
+        2) <h3>Tabs</h3> aka getByRole('heading', { name: 'Tabs', exact: true })
+
+    Call log:
+      - expect.toBeVisible with timeout 2000ms
+      - waiting for locator('.component-title').getByText('Tabs')
+
+
+       at services\steps\playground.steps\componentsMenu.steps.ts:61
+
+      59 |         if(condition === true){
+      60 |             titles.forEach((title) => {
+    > 61 |                 expect(title).toBeVisible();
+         |                               ^
+      62 |             })
+      63 |         } else {
+      64 |             titles.forEach((title) => {
+
+        at forEach (D:\Badin Projects\QAPlayground\services\steps\playground.steps\componentsMenu.steps.ts:61:31)
+        at ButtonsSteps.cardsAreOpened (D:\Badin Projects\QAPlayground\services\steps\playground.steps\componentsMenu.steps.ts:60:20)
+        at D:\Badin Projects\QAPlayground\tests\componentsMenu-tests.spec.ts:122:9
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\tests-componentsMenu-tests-Components-Menu-tests-componentsMenu-Menus-\test-finished-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\tests-componentsMenu-tests-Components-Menu-tests-componentsMenu-Menus-\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\tests-componentsMenu-tests-Components-Menu-tests-componentsMenu-Menus-\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-componentsMenu-tests-Components-Menu-tests-componentsMenu-Menus-\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-componentsMenu-tests-Components-Menu-tests-componentsMenu-Menus-\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Components Menu tests @componentsMenu › Other " classname="tests\componentsMenu-tests.spec.ts" time="17.142">
+<failure message="componentsMenu-tests.spec.ts:127:9 Other " type="FAILURE">
+<![CDATA[  tests\componentsMenu-tests.spec.ts:127:9 › Components Menu tests @componentsMenu › Other  ────────
+
+    Error: expect.toBeVisible: Error: strict mode violation: locator('.component-title').getByText('Table') resolved to 2 elements:
+        1) <h3>Table</h3> aka getByRole('heading', { name: 'Table', exact: true })
+        2) <h3>Sortable list</h3> aka getByRole('heading', { name: 'Sortable list' })
+
+    Call log:
+      - expect.toBeVisible with timeout 2000ms
+      - waiting for locator('.component-title').getByText('Table')
+
+
+       at services\steps\playground.steps\componentsMenu.steps.ts:49
+
+      47 |     async openCard(text: string){
+      48 |         await this.playground.getCardLink(text).click();
+    > 49 |         await expect(this.playground.getCardTitle(text)).toBeVisible();
+         |                                                          ^
+      50 |         
+      51 |     };
+      52 |
+
+        at ButtonsSteps.openCard (D:\Badin Projects\QAPlayground\services\steps\playground.steps\componentsMenu.steps.ts:49:58)
+        at D:\Badin Projects\QAPlayground\tests\componentsMenu-tests.spec.ts:139:9
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\tests-componentsMenu-tests-Components-Menu-tests-componentsMenu-Other-\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\tests-componentsMenu-tests-Components-Menu-tests-componentsMenu-Other-\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\tests-componentsMenu-tests-Components-Menu-tests-componentsMenu-Other-\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-componentsMenu-tests-Components-Menu-tests-componentsMenu-Other-\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-componentsMenu-tests-Components-Menu-tests-componentsMenu-Other-\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="tests\footer-tests.spec.ts" timestamp="2024-03-27T15:48:46.950Z" hostname="" tests="7" failures="2" skipped="0" time="153.968" errors="0">
+<testcase name="Footer @footer › Social links check @socials" classname="tests\footer-tests.spec.ts" time="30.015">
+<failure message="footer-tests.spec.ts:39:9 Social links check @socials" type="FAILURE">
+<![CDATA[  tests\footer-tests.spec.ts:39:9 › Footer @footer › Social links check @socials ───────────────────
+
+    Test finished within timeout of 30000ms, but tearing down "trace recording" ran out of time.
+    Please allow more time for the test, since teardown is attributed towards the test timeout budget.
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\tests-footer-tests-Footer-footer-Social-links-check-socials\test-finished-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\tests-footer-tests-Footer-footer-Social-links-check-socials\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\tests-footer-tests-Footer-footer-Social-links-check-socials\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Social-links-check-socials\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Social-links-check-socials\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Footer @footer › Footer UIPlayground link @footerUIPlayground" classname="tests\footer-tests.spec.ts" time="17.914">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-UIPlayground-link-footerUIPlayground\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-UIPlayground-link-footerUIPlayground\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Footer @footer › Footer Shop Example link @footerShop" classname="tests\footer-tests.spec.ts" time="19.478">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Shop-Example-link-footerShop\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Shop-Example-link-footerShop\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Footer @footer › Footer API Training link @footerAPITraining" classname="tests\footer-tests.spec.ts" time="23.514">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-API-Training-link-footerAPITraining\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-API-Training-link-footerAPITraining\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Footer @footer › Footer Testing Page link @footerTestingPage" classname="tests\footer-tests.spec.ts" time="14.895">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Testing-Page-link-footerTestingPage\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Testing-Page-link-footerTestingPage\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Footer @footer › Footer Whiteboard link @footerWhiteboard" classname="tests\footer-tests.spec.ts" time="30.007">
+<failure message="footer-tests.spec.ts:63:9 Footer Whiteboard link @footerWhiteboard" type="FAILURE">
+<![CDATA[  tests\footer-tests.spec.ts:63:9 › Footer @footer › Footer Whiteboard link @footerWhiteboard ──────
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for locator('.footer-nav a[href=\'/manual-testing\']')
+      -   locator resolved to <a href="/manual-testing" class="footer-list-item-t…>Testing Page</a>
+      - attempting click action
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #1
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #2
+      -   waiting 20ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #3
+      -   waiting 100ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #4
+      -   waiting 100ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #5
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #6
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #7
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #8
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #9
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #10
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #11
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #12
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #13
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #14
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #15
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #16
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #17
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #18
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #19
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #20
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #21
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #22
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #23
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #24
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #25
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #26
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #27
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #28
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #29
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #30
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #31
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #32
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #33
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #34
+      -   waiting 500ms
+      -   waiting for element to be visible, enabled and stable
+      -   element is visible, enabled and stable
+      -   scrolling into view if needed
+      -   done scrolling
+      -   <span class="title-letter-wrap letter-translated white…>Q</span> from <div class="home">…</div> subtree intercepts pointer events
+      - retrying click action, attempt #35
+      -   waiting 500ms
+
+
+       at services\steps\footer.steps.ts:90
+
+      88 |
+      89 |     async openTestingPageLink(){
+    > 90 |         await this.footer.getTestingPageLink().click();
+         |                                                ^
+      91 |         await this.verifyCorrectPage(urls.login);
+      92 |     };
+      93 |
+
+        at FooterSteps.openTestingPageLink (D:\Badin Projects\QAPlayground\services\steps\footer.steps.ts:90:48)
+        at D:\Badin Projects\QAPlayground\tests\footer-tests.spec.ts:64:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\tests-footer-tests-Footer-footer-Footer-Whiteboard-link-footerWhiteboard\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\tests-footer-tests-Footer-footer-Footer-Whiteboard-link-footerWhiteboard\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\tests-footer-tests-Footer-footer-Footer-Whiteboard-link-footerWhiteboard\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Whiteboard-link-footerWhiteboard\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Footer-Whiteboard-link-footerWhiteboard\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Footer @footer › Email link check @email" classname="tests\footer-tests.spec.ts" time="18.145">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Email-link-check-email\test-finished-1.png]]
 
 [[ATTACHMENT|..\test-results\tests-footer-tests-Footer-footer-Email-link-check-email\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="tests\header-tests.spec.ts" timestamp="2024-03-27T15:48:46.950Z" hostname="" tests="6" failures="0" skipped="0" time="79.54" errors="0">
+<testcase name="Header tests @header › UI Playground link check @headerUIPlayground" classname="tests\header-tests.spec.ts" time="14.196">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-header-tests-Header-tests-header-UI-Playground-link-check-headerUIPlayground\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-header-tests-Header-tests-header-UI-Playground-link-check-headerUIPlayground\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Header tests @header › Shop Example link check @headerShop" classname="tests\header-tests.spec.ts" time="15.318">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-header-tests-Header-tests-header-Shop-Example-link-check-headerShop\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-header-tests-Header-tests-header-Shop-Example-link-check-headerShop\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Header tests @header › API Training link check @headerAPITraining" classname="tests\header-tests.spec.ts" time="14.522">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-header-tests-Header-tests-header-API-Training-link-check-headerAPITraining\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-header-tests-Header-tests-header-API-Training-link-check-headerAPITraining\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Header tests @header › White Board link check @headerWhiteboard" classname="tests\header-tests.spec.ts" time="12.981">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-header-tests-Header-tests-header-White-Board-link-check-headerWhiteboard\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-header-tests-Header-tests-header-White-Board-link-check-headerWhiteboard\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Header tests @header › Testing Page link check @headerTestingPage" classname="tests\header-tests.spec.ts" time="10.731">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-header-tests-Header-tests-header-Testing-Page-link-check-headerTestingPage\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-header-tests-Header-tests-header-Testing-Page-link-check-headerTestingPage\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Header tests @header › Logout user @logout" classname="tests\header-tests.spec.ts" time="11.792">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-header-tests-Header-tests-header-Logout-user-logout\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-header-tests-Header-tests-header-Logout-user-logout\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="tests\inputs-tests.spec.ts" timestamp="2024-03-27T15:48:46.950Z" hostname="" tests="7" failures="1" skipped="0" time="92.03" errors="0">
+<testcase name="Test Inputs Functionality @inputs › Calendar input" classname="tests\inputs-tests.spec.ts" time="7.512">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-inputs-tests-Test-Inputs-Functionality-inputs-Calendar-input\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-inputs-tests-Test-Inputs-Functionality-inputs-Calendar-input\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Inputs Functionality @inputs › Progress bar" classname="tests\inputs-tests.spec.ts" time="13.806">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-inputs-tests-Test-Inputs-Functionality-inputs-Progress-bar\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-inputs-tests-Test-Inputs-Functionality-inputs-Progress-bar\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Inputs Functionality @inputs › Radio buttons" classname="tests\inputs-tests.spec.ts" time="12.107">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-inputs-tests-Test-Inputs-Functionality-inputs-Radio-buttons\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-inputs-tests-Test-Inputs-Functionality-inputs-Radio-buttons\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Inputs Functionality @inputs › Checkbox input" classname="tests\inputs-tests.spec.ts" time="17.429">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-inputs-tests-Test-Inputs-Functionality-inputs-Checkbox-input\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-inputs-tests-Test-Inputs-Functionality-inputs-Checkbox-input\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Inputs Functionality @inputs › Country input" classname="tests\inputs-tests.spec.ts" time="13.682">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-inputs-tests-Test-Inputs-Functionality-inputs-Country-input\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-inputs-tests-Test-Inputs-Functionality-inputs-Country-input\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Inputs Functionality @inputs › Range sliders " classname="tests\inputs-tests.spec.ts" time="12.088">
+<failure message="inputs-tests.spec.ts:66:9 Range sliders " type="FAILURE">
+<![CDATA[  tests\inputs-tests.spec.ts:66:9 › Test Inputs Functionality @inputs › Range sliders  ─────────────
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    Expected: "47"
+    Received: "41"
+
+       at services\steps\playground.steps\inputs.steps.ts:123
+
+      121 |
+      122 |         await this.playground.getMultiSliderOne().fill(randomRangeOne);
+    > 123 |         expect(await this.playground.getMultiSliderOne().getAttribute('data-value')).toEqual(randomRangeOne);
+          |                                                                                      ^
+      124 |
+      125 |         await this.playground.getMultiSliderTwo().fill(randomRangeTwo);
+      126 |         expect(await this.playground.getMultiSliderTwo().getAttribute('data-value')).toEqual(randomRangeTwo);
+
+        at InputsSteps.moveMultiRangeSlider (D:\Badin Projects\QAPlayground\services\steps\playground.steps\inputs.steps.ts:123:86)
+        at D:\Badin Projects\QAPlayground\tests\inputs-tests.spec.ts:79:9
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\tests-inputs-tests-Test-Inputs-Functionality-inputs-Range-sliders-\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\tests-inputs-tests-Test-Inputs-Functionality-inputs-Range-sliders-\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\tests-inputs-tests-Test-Inputs-Functionality-inputs-Range-sliders-\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-inputs-tests-Test-Inputs-Functionality-inputs-Range-sliders-\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-inputs-tests-Test-Inputs-Functionality-inputs-Range-sliders-\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Inputs Functionality @inputs › Enter verification code" classname="tests\inputs-tests.spec.ts" time="15.406">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-inputs-tests-Test-Inputs-Functionality-inputs-Enter-verification-code\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-inputs-tests-Test-Inputs-Functionality-inputs-Enter-verification-code\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="tests\login-tests.spec.ts" timestamp="2024-03-27T15:48:46.950Z" hostname="" tests="6" failures="0" skipped="0" time="37.055" errors="0">
+<testcase name="Login tests @login › Login validation @validLogin" classname="tests\login-tests.spec.ts" time="5.431">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-validation-validLogin\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-validation-validLogin\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Login tests @login › Forgot password functionality @forgotPassword" classname="tests\login-tests.spec.ts" time="10.286">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Forgot-password-functionality-forgotPassword\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Forgot-password-functionality-forgotPassword\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Login tests @login › Login validation check when password input field is blank @blankPassword" classname="tests\login-tests.spec.ts" time="4.041">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-vali-a815e-hen-password-input-field-is-blank-blankPassword\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-vali-a815e-hen-password-input-field-is-blank-blankPassword\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Login tests @login › Login validation check when Email input field is blank @blankEmail" classname="tests\login-tests.spec.ts" time="6.749">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-vali-ce42d-heck-when-Email-input-field-is-blank-blankEmail\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-vali-ce42d-heck-when-Email-input-field-is-blank-blankEmail\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Login tests @login › Login validation check with invalid Email @invalidEmail" classname="tests\login-tests.spec.ts" time="5.148">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-validation-check-with-invalid-Email-invalidEmail\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Login-validation-check-with-invalid-Email-invalidEmail\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Login tests @login › Check login with invalid password @invalidPassword" classname="tests\login-tests.spec.ts" time="5.4">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Check-login-with-invalid-password-invalidPassword\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-login-tests-Login-tests-login-Check-login-with-invalid-password-invalidPassword\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="tests\modals-tests.spec.ts" timestamp="2024-03-27T15:48:46.950Z" hostname="" tests="2" failures="0" skipped="0" time="34.337" errors="0">
+<testcase name="Test Modals Functionality @modals › Alert button" classname="tests\modals-tests.spec.ts" time="11.698">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-modals-tests-Test-Modals-Functionality-modals-Alert-button\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-modals-tests-Test-Modals-Functionality-modals-Alert-button\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Modals Functionality @modals › Confirm button" classname="tests\modals-tests.spec.ts" time="22.639">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-modals-tests-Test-Modals-Functionality-modals-Confirm-button\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-modals-tests-Test-Modals-Functionality-modals-Confirm-button\test-finished-2.png]]
+
+[[ATTACHMENT|..\test-results\tests-modals-tests-Test-Modals-Functionality-modals-Confirm-button\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="tests\other-tests.spec.ts" timestamp="2024-03-27T15:48:46.950Z" hostname="" tests="18" failures="1" skipped="0" time="160.095" errors="0">
+<testcase name="Test Other Functionality @other › Dropdown" classname="tests\other-tests.spec.ts" time="14.12">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Dropdown\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Dropdown\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Other Functionality @other › Incr./decr. element" classname="tests\other-tests.spec.ts" time="11.488">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Incr-decr-element\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Incr-decr-element\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Other Functionality @other › Drag and drop @testing" classname="tests\other-tests.spec.ts" time="10.484">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Drag-and-drop-testing\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Drag-and-drop-testing\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Other Functionality @other › Dropdown scroll" classname="tests\other-tests.spec.ts" time="12.873">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Dropdown-scroll\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Dropdown-scroll\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Other Functionality @other › Preview file" classname="tests\other-tests.spec.ts" time="8.503">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Preview-file\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Preview-file\test-finished-2.png]]
+
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Preview-file\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Other Functionality @other › Scroll to element " classname="tests\other-tests.spec.ts" time="7.159">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Scroll-to-element-\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Scroll-to-element-\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Other Functionality @other › Sortable list " classname="tests\other-tests.spec.ts" time="6.664">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Sortable-list-\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Sortable-list-\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Other Functionality @other › Upload file field @uploadFileField" classname="tests\other-tests.spec.ts" time="30.013">
+<failure message="other-tests.spec.ts:211:9 Upload file field @uploadFileField" type="FAILURE">
+<![CDATA[  tests\other-tests.spec.ts:211:9 › Test Other Functionality @other › Upload file field @uploadFileField 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.innerText: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for locator('.upload-file-field-wrapper-error')
+
+
+       at services\steps\playground.steps\other.steps.ts:144
+
+      142 |
+      143 |         // await this.playground.getUploadField().setInputFiles("../../testFiles/"+ filePath);
+    > 144 |         expect(await this.playground.getUploadError().innerText()).toBe("File exceeds the maximum allowed size (1 MB)");
+          |                                                       ^
+      145 |     };
+      146 |
+      147 |     async uploadAllowedSizeFile(){
+
+        at OtherSteps.uploadOversizedFile (D:\Badin Projects\QAPlayground\services\steps\playground.steps\other.steps.ts:144:55)
+        at D:\Badin Projects\QAPlayground\tests\other-tests.spec.ts:214:9
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\tests-other-tests-Test-Other-Functionality-other-Upload-file-field-uploadFileField\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\tests-other-tests-Test-Other-Functionality-other-Upload-file-field-uploadFileField\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\tests-other-tests-Test-Other-Functionality-other-Upload-file-field-uploadFileField\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Upload-file-field-uploadFileField\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Upload-file-field-uploadFileField\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Other Functionality @other › Table, sort Instructors - Ascending order @ascInstructors" classname="tests\other-tests.spec.ts" time="5.43">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-oth-e8bf8-rt-Instructors---Ascending-order-ascInstructors\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-oth-e8bf8-rt-Instructors---Ascending-order-ascInstructors\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Other Functionality @other › Table, sort Instructors - Descending order @descInstructors" classname="tests\other-tests.spec.ts" time="5.453">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-oth-28cdf--Instructors---Descending-order-descInstructors\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-oth-28cdf--Instructors---Descending-order-descInstructors\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Other Functionality @other › Table, sort Courses - Ascending order @ascCourses" classname="tests\other-tests.spec.ts" time="5.969">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Table-sort-Courses---Ascending-order-ascCourses\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Table-sort-Courses---Ascending-order-ascCourses\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Other Functionality @other › Table, sort Courses - Descending order @descCourses" classname="tests\other-tests.spec.ts" time="4.969">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Table-sort-Courses---Descending-order-descCourses\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Table-sort-Courses---Descending-order-descCourses\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Other Functionality @other › Table, sort Prices - Ascending order @ascPrices" classname="tests\other-tests.spec.ts" time="4.979">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Table-sort-Prices---Ascending-order-ascPrices\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Table-sort-Prices---Ascending-order-ascPrices\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Other Functionality @other › Table, sort Prices - Descending order @descPrices" classname="tests\other-tests.spec.ts" time="5.985">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Table-sort-Prices---Descending-order-descPrices\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Table-sort-Prices---Descending-order-descPrices\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Other Functionality @other › Table pagination @pagination" classname="tests\other-tests.spec.ts" time="4.777">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Table-pagination-pagination\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Table-pagination-pagination\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Other Functionality @other › Send Message @sendMessage" classname="tests\other-tests.spec.ts" time="7.007">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Send-Message-sendMessage\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Send-Message-sendMessage\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Other Functionality @other › To-Do list @toDoList" classname="tests\other-tests.spec.ts" time="5.343">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-To-Do-list-toDoList\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-To-Do-list-toDoList\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test Other Functionality @other › Timer @timer" classname="tests\other-tests.spec.ts" time="8.879">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Timer-timer\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-other-tests-Test-Other-Functionality-other-Timer-timer\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="tests\shopExample-tests.spec.ts" timestamp="2024-03-27T15:48:46.950Z" hostname="" tests="8" failures="0" skipped="0" time="81.402" errors="0">
+<testcase name="Shop Example  › Sorting dropdown - Price: low to high " classname="tests\shopExample-tests.spec.ts" time="11.181">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-shopExample-tests-Shop-Example-Sorting-dropdown---Price-low-to-high-\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-shopExample-tests-Shop-Example-Sorting-dropdown---Price-low-to-high-\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Shop Example  › Sorting dropdown - Price: high to low  " classname="tests\shopExample-tests.spec.ts" time="12.604">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-shopExample-tests-Shop-Example-Sorting-dropdown---Price-high-to-low-\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-shopExample-tests-Shop-Example-Sorting-dropdown---Price-high-to-low-\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Shop Example  › Sorting dropdown - Name: Alphabetically @shop" classname="tests\shopExample-tests.spec.ts" time="12.732">
+<system-out>
+<![CDATA[
+[
+  [32m'Samsung washing machine WW11BB944DGHS7 - White'[39m,
+  [32m'Samsung Smart TV QE65S95BATXXH'[39m,
+  [32m'LG Smart TV 50UQ75003LF.AEU'[39m,
+  [32m'Samsung Smart TV UE55AU7092UXXH'[39m,
+  [32m'HP Laptop Spectre x360 M4K6R8B2H9P7L5Z'[39m,
+  [32m'Comtrade Desktop Atria X2N6Y8K4V0H7M1J'[39m,
+  [32m'ALTOS Desktop PC Tornado L II Q8R3T5X9P0M7G1S'[39m,
+  [32m'Zotac Graphics Card Gaming D1F5J3L7B2N9R6P'[39m,
+  [32m'Dji Drone Mavic Pro Platinum CP.PT.00000065.01'[39m,
+  [32m'Asus keyboard ROG Falchion CP.PT.00000065.06'[39m,
+  [32m'Asus wireless router G7H1K5C3T9V2X4L'[39m,
+  [32m'WiFi CD6 access point x2 - White CP.PT.00000065.09'[39m,
+  [32m'Ethernet CD8 switch x4 - Black CP.PT.00000123.09'[39m,
+  [32m'Bluetooth CD2 adapter x1 - Silver CP.PT.00000234.09'[39m,
+  [32m'Wireless CD4 router x3 - Grey CP.PT.00000345.09'[39m,
+  [32m'LTE CD10 modem x5 - Rose Gold CP.PT.00000456.09'[39m,
+  [32m'NFC CD3 receiver x2 - Blue CP.PT.00000567.09'[39m,
+  [32m'WiFi CD6 access point X4N8Y6K2V0H5M3J'[39m,
+  [32m'Bluetooth CD2 adapter X7N3Y1K5V9H6M4J'[39m,
+  [32m'Wireless CD4 router X0N4Y2K6V8H1M7J'[39m,
+  [32m'Bluetooth Earbuds E3R5T9U2I4O6P1'[39m,
+  [32m'Smartwatch W2Q7E5R1T3Y9U2'[39m,
+  [32m'Gaming Mouse M4O6U1S3E9G2A7'[39m,
+  [32m'Portable Charger P9O2R4T6A1B7L3E9'[39m
+]
+[
+  [32m'WW11BB944DGHS7 - White'[39m,
+  [32m'QE65S95BATXXH'[39m,
+  [32m'50UQ75003LF.AEU'[39m,
+  [32m'UE55AU7092UXXH'[39m,
+  [32m'M4K6R8B2H9P7L5Z'[39m,
+  [32m'X2N6Y8K4V0H7M1J'[39m,
+  [32m'Q8R3T5X9P0M7G1S'[39m,
+  [32m'D1F5J3L7B2N9R6P'[39m,
+  [32m'CP.PT.00000065.01'[39m,
+  [32m'CP.PT.00000065.06'[39m,
+  [32m'G7H1K5C3T9V2X4L'[39m,
+  [32m'x2 - White CP.PT.00000065.09'[39m,
+  [32m'x4 - Black CP.PT.00000123.09'[39m,
+  [32m'x1 - Silver CP.PT.00000234.09'[39m,
+  [32m'x3 - Grey CP.PT.00000345.09'[39m,
+  [32m'x5 - Rose Gold CP.PT.00000456.09'[39m,
+  [32m'x2 - Blue CP.PT.00000567.09'[39m,
+  [32m'X4N8Y6K2V0H5M3J'[39m,
+  [32m'X7N3Y1K5V9H6M4J'[39m,
+  [32m'X0N4Y2K6V8H1M7J'[39m,
+  [32m'E3R5T9U2I4O6P1'[39m,
+  [32m'W2Q7E5R1T3Y9U2'[39m,
+  [32m'M4O6U1S3E9G2A7'[39m,
+  [32m'P9O2R4T6A1B7L3E9'[39m
+]
+[
+  [32m'Samsung washing machine '[39m,
+  [32m'Samsung Smart TV '[39m,
+  [32m'LG Smart TV '[39m,
+  [32m'Samsung Smart TV '[39m,
+  [32m'HP Laptop Spectre x360 '[39m,
+  [32m'Comtrade Desktop Atria '[39m,
+  [32m'ALTOS Desktop PC Tornado L II '[39m,
+  [32m'Zotac Graphics Card Gaming '[39m,
+  [32m'Dji Drone Mavic Pro Platinum '[39m,
+  [32m'Asus keyboard ROG Falchion '[39m,
+  [32m'Asus wireless router '[39m,
+  [32m'WiFi CD6 access point '[39m,
+  [32m'Ethernet CD8 switch '[39m,
+  [32m'Bluetooth CD2 adapter '[39m,
+  [32m'Wireless CD4 router '[39m,
+  [32m'LTE CD10 modem '[39m,
+  [32m'NFC CD3 receiver '[39m,
+  [32m'WiFi CD6 access point '[39m,
+  [32m'Bluetooth CD2 adapter '[39m,
+  [32m'Wireless CD4 router '[39m,
+  [32m'Bluetooth Earbuds '[39m,
+  [32m'Smartwatch '[39m,
+  [32m'Gaming Mouse '[39m,
+  [32m'Portable Charger '[39m
+]
+
+[
+  [32m'ALTOS Desktop PC Tornado L II Q8R3T5X9P0M7G1S'[39m,
+  [32m'Asus keyboard ROG Falchion CP.PT.00000065.06'[39m,
+  [32m'Asus wireless router G7H1K5C3T9V2X4L'[39m,
+  [32m'Bluetooth CD2 adapter x1 - Silver CP.PT.00000234.09'[39m,
+  [32m'Bluetooth CD2 adapter X7N3Y1K5V9H6M4J'[39m,
+  [32m'Bluetooth Earbuds E3R5T9U2I4O6P1'[39m,
+  [32m'Comtrade Desktop Atria X2N6Y8K4V0H7M1J'[39m,
+  [32m'Dji Drone Mavic Pro Platinum CP.PT.00000065.01'[39m,
+  [32m'Ethernet CD8 switch x4 - Black CP.PT.00000123.09'[39m,
+  [32m'Gaming Mouse M4O6U1S3E9G2A7'[39m,
+  [32m'HP Laptop Spectre x360 M4K6R8B2H9P7L5Z'[39m,
+  [32m'LG Smart TV 50UQ75003LF.AEU'[39m,
+  [32m'LTE CD10 modem x5 - Rose Gold CP.PT.00000456.09'[39m,
+  [32m'NFC CD3 receiver x2 - Blue CP.PT.00000567.09'[39m,
+  [32m'Portable Charger P9O2R4T6A1B7L3E9'[39m,
+  [32m'Samsung Smart TV QE65S95BATXXH'[39m,
+  [32m'Samsung Smart TV UE55AU7092UXXH'[39m,
+  [32m'Samsung washing machine WW11BB944DGHS7 - White'[39m,
+  [32m'Smartwatch W2Q7E5R1T3Y9U2'[39m,
+  [32m'WiFi CD6 access point x2 - White CP.PT.00000065.09'[39m,
+  [32m'WiFi CD6 access point X4N8Y6K2V0H5M3J'[39m,
+  [32m'Wireless CD4 router x3 - Grey CP.PT.00000345.09'[39m,
+  [32m'Wireless CD4 router X0N4Y2K6V8H1M7J'[39m,
+  [32m'Zotac Graphics Card Gaming D1F5J3L7B2N9R6P'[39m
+]
+[
+  [32m'Q8R3T5X9P0M7G1S'[39m,
+  [32m'CP.PT.00000065.06'[39m,
+  [32m'G7H1K5C3T9V2X4L'[39m,
+  [32m'x1 - Silver CP.PT.00000234.09'[39m,
+  [32m'X7N3Y1K5V9H6M4J'[39m,
+  [32m'E3R5T9U2I4O6P1'[39m,
+  [32m'X2N6Y8K4V0H7M1J'[39m,
+  [32m'CP.PT.00000065.01'[39m,
+  [32m'x4 - Black CP.PT.00000123.09'[39m,
+  [32m'M4O6U1S3E9G2A7'[39m,
+  [32m'M4K6R8B2H9P7L5Z'[39m,
+  [32m'50UQ75003LF.AEU'[39m,
+  [32m'x5 - Rose Gold CP.PT.00000456.09'[39m,
+  [32m'x2 - Blue CP.PT.00000567.09'[39m,
+  [32m'P9O2R4T6A1B7L3E9'[39m,
+  [32m'QE65S95BATXXH'[39m,
+  [32m'UE55AU7092UXXH'[39m,
+  [32m'WW11BB944DGHS7 - White'[39m,
+  [32m'W2Q7E5R1T3Y9U2'[39m,
+  [32m'x2 - White CP.PT.00000065.09'[39m,
+  [32m'X4N8Y6K2V0H5M3J'[39m,
+  [32m'x3 - Grey CP.PT.00000345.09'[39m,
+  [32m'X0N4Y2K6V8H1M7J'[39m,
+  [32m'D1F5J3L7B2N9R6P'[39m
+]
+[
+  [32m'ALTOS Desktop PC Tornado L II '[39m,
+  [32m'Asus keyboard ROG Falchion '[39m,
+  [32m'Asus wireless router '[39m,
+  [32m'Bluetooth CD2 adapter '[39m,
+  [32m'Bluetooth CD2 adapter '[39m,
+  [32m'Bluetooth Earbuds '[39m,
+  [32m'Comtrade Desktop Atria '[39m,
+  [32m'Dji Drone Mavic Pro Platinum '[39m,
+  [32m'Ethernet CD8 switch '[39m,
+  [32m'Gaming Mouse '[39m,
+  [32m'HP Laptop Spectre x360 '[39m,
+  [32m'LG Smart TV '[39m,
+  [32m'LTE CD10 modem '[39m,
+  [32m'NFC CD3 receiver '[39m,
+  [32m'Portable Charger '[39m,
+  [32m'Samsung Smart TV '[39m,
+  [32m'Samsung Smart TV '[39m,
+  [32m'Samsung washing machine '[39m,
+  [32m'Smartwatch '[39m,
+  [32m'WiFi CD6 access point '[39m,
+  [32m'WiFi CD6 access point '[39m,
+  [32m'Wireless CD4 router '[39m,
+  [32m'Wireless CD4 router '[39m,
+  [32m'Zotac Graphics Card Gaming '[39m
+]
+
+[
+  [32m'Samsung washing machine WW11BB944DGHS7 - White'[39m,
+  [32m'Samsung Smart TV QE65S95BATXXH'[39m,
+  [32m'LG Smart TV 50UQ75003LF.AEU'[39m,
+  [32m'Samsung Smart TV UE55AU7092UXXH'[39m,
+  [32m'HP Laptop Spectre x360 M4K6R8B2H9P7L5Z'[39m,
+  [32m'Comtrade Desktop Atria X2N6Y8K4V0H7M1J'[39m,
+  [32m'ALTOS Desktop PC Tornado L II Q8R3T5X9P0M7G1S'[39m,
+  [32m'Zotac Graphics Card Gaming D1F5J3L7B2N9R6P'[39m,
+  [32m'Dji Drone Mavic Pro Platinum CP.PT.00000065.01'[39m,
+  [32m'Asus keyboard ROG Falchion CP.PT.00000065.06'[39m,
+  [32m'Asus wireless router G7H1K5C3T9V2X4L'[39m,
+  [32m'WiFi CD6 access point x2 - White CP.PT.00000065.09'[39m,
+  [32m'Ethernet CD8 switch x4 - Black CP.PT.00000123.09'[39m,
+  [32m'Bluetooth CD2 adapter x1 - Silver CP.PT.00000234.09'[39m,
+  [32m'Wireless CD4 router x3 - Grey CP.PT.00000345.09'[39m,
+  [32m'LTE CD10 modem x5 - Rose Gold CP.PT.00000456.09'[39m,
+  [32m'NFC CD3 receiver x2 - Blue CP.PT.00000567.09'[39m,
+  [32m'WiFi CD6 access point X4N8Y6K2V0H5M3J'[39m,
+  [32m'Bluetooth CD2 adapter X7N3Y1K5V9H6M4J'[39m,
+  [32m'Wireless CD4 router X0N4Y2K6V8H1M7J'[39m,
+  [32m'Bluetooth Earbuds E3R5T9U2I4O6P1'[39m,
+  [32m'Smartwatch W2Q7E5R1T3Y9U2'[39m,
+  [32m'Gaming Mouse M4O6U1S3E9G2A7'[39m,
+  [32m'Portable Charger P9O2R4T6A1B7L3E9'[39m
+]
+[
+  [32m'WW11BB944DGHS7 - White'[39m,
+  [32m'QE65S95BATXXH'[39m,
+  [32m'50UQ75003LF.AEU'[39m,
+  [32m'UE55AU7092UXXH'[39m,
+  [32m'M4K6R8B2H9P7L5Z'[39m,
+  [32m'X2N6Y8K4V0H7M1J'[39m,
+  [32m'Q8R3T5X9P0M7G1S'[39m,
+  [32m'D1F5J3L7B2N9R6P'[39m,
+  [32m'CP.PT.00000065.01'[39m,
+  [32m'CP.PT.00000065.06'[39m,
+  [32m'G7H1K5C3T9V2X4L'[39m,
+  [32m'x2 - White CP.PT.00000065.09'[39m,
+  [32m'x4 - Black CP.PT.00000123.09'[39m,
+  [32m'x1 - Silver CP.PT.00000234.09'[39m,
+  [32m'x3 - Grey CP.PT.00000345.09'[39m,
+  [32m'x5 - Rose Gold CP.PT.00000456.09'[39m,
+  [32m'x2 - Blue CP.PT.00000567.09'[39m,
+  [32m'X4N8Y6K2V0H5M3J'[39m,
+  [32m'X7N3Y1K5V9H6M4J'[39m,
+  [32m'X0N4Y2K6V8H1M7J'[39m,
+  [32m'E3R5T9U2I4O6P1'[39m,
+  [32m'W2Q7E5R1T3Y9U2'[39m,
+  [32m'M4O6U1S3E9G2A7'[39m,
+  [32m'P9O2R4T6A1B7L3E9'[39m
+]
+[
+  [32m'Samsung washing machine '[39m,
+  [32m'Samsung Smart TV '[39m,
+  [32m'LG Smart TV '[39m,
+  [32m'Samsung Smart TV '[39m,
+  [32m'HP Laptop Spectre x360 '[39m,
+  [32m'Comtrade Desktop Atria '[39m,
+  [32m'ALTOS Desktop PC Tornado L II '[39m,
+  [32m'Zotac Graphics Card Gaming '[39m,
+  [32m'Dji Drone Mavic Pro Platinum '[39m,
+  [32m'Asus keyboard ROG Falchion '[39m,
+  [32m'Asus wireless router '[39m,
+  [32m'WiFi CD6 access point '[39m,
+  [32m'Ethernet CD8 switch '[39m,
+  [32m'Bluetooth CD2 adapter '[39m,
+  [32m'Wireless CD4 router '[39m,
+  [32m'LTE CD10 modem '[39m,
+  [32m'NFC CD3 receiver '[39m,
+  [32m'WiFi CD6 access point '[39m,
+  [32m'Bluetooth CD2 adapter '[39m,
+  [32m'Wireless CD4 router '[39m,
+  [32m'Bluetooth Earbuds '[39m,
+  [32m'Smartwatch '[39m,
+  [32m'Gaming Mouse '[39m,
+  [32m'Portable Charger '[39m
+]
+
+[[ATTACHMENT|..\test-results\tests-shopExample-tests-Shop-Example-Sorting-dropdown---Name-Alphabetically-shop\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-shopExample-tests-Shop-Example-Sorting-dropdown---Name-Alphabetically-shop\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Shop Example  › Price slider " classname="tests\shopExample-tests.spec.ts" time="9.729">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-shopExample-tests-Shop-Example-Price-slider-\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-shopExample-tests-Shop-Example-Price-slider-\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Shop Example  › out of stock items " classname="tests\shopExample-tests.spec.ts" time="8.233">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-shopExample-tests-Shop-Example-out-of-stock-items-\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-shopExample-tests-Shop-Example-out-of-stock-items-\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Shop Example  › Search input field filter " classname="tests\shopExample-tests.spec.ts" time="8.944">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-shopExample-tests-Shop-Example-Search-input-field-filter-\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-shopExample-tests-Shop-Example-Search-input-field-filter-\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Shop Example  › Adding items to cart " classname="tests\shopExample-tests.spec.ts" time="7.17">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-shopExample-tests-Shop-Example-Adding-items-to-cart-\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-shopExample-tests-Shop-Example-Adding-items-to-cart-\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Shop Example  › Buy products" classname="tests\shopExample-tests.spec.ts" time="10.809">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-shopExample-tests-Shop-Example-Buy-products\test-finished-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-shopExample-tests-Shop-Example-Buy-products\trace.zip]]
 ]]>
 </system-out>
 </testcase>

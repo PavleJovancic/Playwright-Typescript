@@ -1,6 +1,6 @@
 import { expect, Page } from "@playwright/test";
 import Playground from "../../pages/playground.page";
-import * as data from '../../../test-data/data.json'
+
 
 export default class ModalsSteps{
     private page: Page;

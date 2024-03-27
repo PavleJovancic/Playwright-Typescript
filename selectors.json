@@ -144,7 +144,7 @@
                 },
                 "uploadFileField":{
                     "uploadFileFieldCardLink":"//*[@class='list-item-name' and contains(text(),'Upload file field')]",
-                    "uploadFile":".upload-file-field-wrapper",
+                    "uploadFile":"#qa-upload-file-field",
                     "downloadButtons":".download-file",
                     "uploadError":".upload-file-field-wrapper-error"
                 },
@@ -159,10 +159,21 @@
                     "buttons":"//*[@class='send-message-btns']/button"
                 },
                 "toDoList":{
-                    "toDoListCardLink":"//*[@class='list-item-name' and contains(text(),'To-Do list')]"
+                    "toDoListCardLink":"//*[@class='list-item-name' and contains(text(),'To-Do list')]",
+                    "numberOfTasks":".todo-list-info-title h4",
+                    "inputTask":".todo-list-info-input",
+                    "add":".todo-list-info button",
+                    "taskName":".todo-list-tasks-item-description p",
+                    "edit":".todo-list-tasks-item-settings button:nth-child(1)",
+                    "delete":".todo-list-tasks-item-settings button:nth-child(2)",
+                    "tasks":".todo-list-tasks-item"
+
                 },
                 "timer":{
-                    "timerCardLink":"//*[@class='list-item-name' and contains(text(),'Timer')]"
+                    "timerCardLink":"//*[@class='list-item-name' and contains(text(),'Timer')]",
+                    "countdown":".timer-countdown-label",
+                    "controls":".timer-controls-item",
+                    "start":".timer-controls-start"
                 }
             }
         }
@@ -186,8 +197,8 @@
         "subtotalPrice":".cart-container-list-item-body-total span",
         "totalPrice":".cart-container-total-price h3",
         "buyAll":".cart-container-total-price-btn button",
-        "succesfullPurchaseMessage":".buy-message-wrapper-item h4",
-        "succesfullPurchaseButton":".buy-message-wrapper-item button"
+        "successfulPurchaseMessage":".buy-message-wrapper-item h4",
+        "successfulPurchaseButton":".buy-message-wrapper-item button"
     },
     "footer":{
         "home": ".footer-nav a[href='/']",

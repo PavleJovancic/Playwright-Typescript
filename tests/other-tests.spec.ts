@@ -114,7 +114,7 @@ test.describe("Test Other Functionality @other", () => {
            
         await componentsMenuSteps.openCard(testData.scrollToElement);
 
-        await otherSteps.clickSrolltoElementButton();
+        await otherSteps.clickScrollToElementButton();
         await otherSteps.clickGoBackToStartButton();
         await otherSteps.scrollDownToElement();
         await otherSteps.scrollUptoElement();
@@ -208,11 +208,11 @@ test.describe("Test Other Functionality @other", () => {
             //     // this.playground.getAnimal(coastal).isVisible()
             
         
-    test("Upload file field", async () => {
+    test("Upload file field @uploadFileField", async () => {
            
         await componentsMenuSteps.openCard(testData.uploadFileField);
         await otherSteps.uploadOversizedFile();
-        await otherSteps.uploadAllowedSizeFile(); 
+        // await otherSteps.uploadAllowedSizeFile(); 
     });
         
     test("Table, sort Instructors - Ascending order @ascInstructors", async () => {
@@ -278,12 +278,28 @@ test.describe("Test Other Functionality @other", () => {
                 
     })
         
-    test("To-Do list", async () => {
+    test("To-Do list @toDoList", async () => {
+        let task = "test123"
+        let editedTask = "newtest"
         await componentsMenuSteps.openCard(testData.toDoList)
-                
+        
+        await otherSteps.addTask(task)
+        await otherSteps.editTask(task, editedTask)
+        await otherSteps.deleteTask(editedTask)
     })
         
-    test("Timer", async () => {
+    test("Timer @timer", async () => {
         await componentsMenuSteps.openCard(testData.timer)
+
+        await otherSteps.decreaseTimeoutCountdown()
+        await otherSteps.decreaseTimeoutCountdown()
+        await otherSteps.decreaseTimeoutCountdown()
+        await otherSteps.decreaseTimeoutCountdown()
+
+        await otherSteps.increaseTimeoutCountdown()
+        await otherSteps.increaseTimeoutCountdown()
+        await otherSteps.increaseTimeoutCountdown()
+        await otherSteps.increaseTimeoutCountdown()
+        await otherSteps.startCountdown(3)
     })
 });

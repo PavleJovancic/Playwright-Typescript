@@ -30,9 +30,9 @@ export default class Shop{
         return await this.page.locator(selectors.shopExample.itemTitle).allTextContents();
     };
 
-    async getItemTitle(item){
+    async getItemTitle(item: string){
         await this.page.waitForTimeout(1000);
-        return await this.page.locator(selectors.shopExample.itemTitle).getByText(item);
+        return this.page.locator(selectors.shopExample.itemTitle).getByText(item);
     };
 
     async getItemDescription(){
@@ -54,57 +54,57 @@ export default class Shop{
         return this.page.locator(selectors.shopExample.itemButton);
     };
 
-    getItemCard(item: string){
+    getItemCard(item: string): Locator{
         return this.page.locator(selectors.shopExample.card).filter({hasText: item}).getByRole('button');
     };
 
-    getCartIcon(){
+    getCartIcon(): Locator{
         return this.page.locator(selectors.shopExample.cartIcon);
     };
 
-    getPrice(item){
+    getPrice(item): Locator{
         return this.getCartItem(item).locator(selectors.shopExample.price).getByText("Price:");
     };
 
-    getSubtotalPrice(item){
+    getSubtotalPrice(item: string): Locator{
         return this.getCartItem(item).locator(selectors.shopExample.subtotalPrice);
     };
 
 
-    getDecreaseQuantity(item){
+    getDecreaseQuantity(item: string): Locator{
         return this.getCartItem(item).locator(selectors.shopExample.changeQuantity).nth(0);
     };
 
-    getIncreaseQuantity(item){
+    getIncreaseQuantity(item: string): Locator{
         return this.getCartItem(item).locator(selectors.shopExample.changeQuantity).nth(1);
     };
 
-    getQuantity(){
+    getQuantity(): Locator{
         return this.page.locator(selectors.shopExample.quantity);
     };
 
-    getCartItem(item){
+    getCartItem(item: string): Locator{
         return this.page.locator(selectors.shopExample.cartItem).filter({hasText: item});
     };
 
-    getSubtotalPrices(){
-        return this.page.locator(selectors.shopExample.subtotalPrice).allInnerTexts();
+    async getSubtotalPrices(){
+        return await this.page.locator(selectors.shopExample.subtotalPrice).allInnerTexts();
     };
 
-    getTotalPrice(){
+    getTotalPrice(): Locator{
         return this.page.locator(selectors.shopExample.totalPrice);
     };
 
-    getBuyAllButton(){
+    getBuyAllButton(): Locator{
         return this.page.locator(selectors.shopExample.buyAll);
     };
 
-    getSuccessfulPurchaseMessage(){
-        return this.page.locator(selectors.shopExample.succesfullPurchaseMessage);
+    getSuccessfulPurchaseMessage(): Locator{
+        return this.page.locator(selectors.shopExample.successfulPurchaseMessage);
     };
 
-    getSuccessfulPurchaseButton(){
-        return this.page.locator(selectors.shopExample.succesfullPurchaseButton);
+    getSuccessfulPurchaseButton(): Locator{
+        return this.page.locator(selectors.shopExample.successfulPurchaseButton);
     };
 
 };

@@ -109,34 +109,5 @@ export default class ButtonsSteps{
         expect(uploadedFileText).toEqual(file);
     };
 
-  
 
-
-
-// //Others
-
-// async clickOthersLink(){
-//     await this.uiPlaygroundPage.getOthersLink().click()
-// }
-    
-// //dropdown
-// async clickDropdowCardLink(){
-//     await this.uiPlaygroundPage.getDropdownCardLink().click()
-// }
-
-// async clickDropdownMenu(){
-//     await this.uiPlaygroundPage.getDropdownMenu().click()
-// }
-
-// async selectOptionFromDropdownMenu(option: string){
-//     await this.uiPlaygroundPage.getDropdownMenu().selectOption(option)
-// }
-
-
-
-
-
-
-  
-
-}
+};

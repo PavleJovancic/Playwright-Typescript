@@ -70,7 +70,7 @@ getComponentsMenu(): Locator{
 
 
 
-getShrinkedComponentsMenu(): Locator{
+getShrunkComponentsMenu(): Locator{
     return this.page.locator(selectors.uiPlayground.components.shrinkedComponentsMenu);
 };
 
@@ -234,8 +234,8 @@ getMultiSliderTwo(): Locator{
 
 
 getVerificationCodeInput(n: number):Locator{
-    return this.page.locator(selectors.uiPlayground.components.inputs.enterVerificationCode.verificationCode).nth(n-1)
-}
+    return this.page.locator(selectors.uiPlayground.components.inputs.enterVerificationCode.verificationCode).nth(n-1);
+};
 
 getCorrectCode(): Locator{
     return this.page.locator(selectors.uiPlayground.components.inputs.enterVerificationCode.correctCode);
@@ -316,54 +316,54 @@ getSelectAllOther(): Locator{
 
 //dropdown
 
-getDropdownCardLink(){
-    return this.page.locator(selectors.uiPlayground.components.other.dropdown.dropdownCardLink)
-}
+getDropdownCardLink(): Locator{
+    return this.page.locator(selectors.uiPlayground.components.other.dropdown.dropdownCardLink);
+};
 
 
-getDropdownMenu(){
-    return this.page.locator(selectors.uiPlayground.components.other.dropdown.dropdownMenu)
-}
+getDropdownMenu(): Locator{
+    return this.page.locator(selectors.uiPlayground.components.other.dropdown.dropdownMenu);
+};
 
 //Incr/Decr element
 
-getIncrDecrElementCardLink(){
-    return this.page.locator("label[for='6']")
-}
+getIncrDecrElementCardLink(): Locator{
+    return this.page.locator("label[for='6']");
+};
 
 
-getDecrement(){
-    return this.page.locator("img[alt='reduce time']")
-}
+getDecrement(): Locator{
+    return this.page.locator("img[alt='reduce time']");
+};
 
 
-getIncrement(){
-    return this.page.locator("img[alt='increase time']")
-}    
+getIncrement(): Locator{
+    return this.page.locator("img[alt='increase time']");
+};
 
 
-getIncrDecrInput(){
-    return this.page.locator("input[type='number']")
-}
+getIncrDecrInput(): Locator{
+    return this.page.locator("input[type='number']");
+};
 
 
-getResetIncrDecrInput(){
-    return this.page.locator("img[alt='reset']")
-}
+getResetIncrDecrInput(): Locator{
+    return this.page.locator("img[alt='reset']");
+};
 
 
 
 //Drag and Drop
 
 
-getDragAndDropLink(){
-    return this.page.locator("label[for='13']")
-}
+getDragAndDropLink(): Locator{
+    return this.page.locator("label[for='13']");
+};
 
 
-getDropArea(droparea:number){
+getDropArea(droparea: number): Locator{
     return this.page.locator(selectors.uiPlayground.components.other.dragAndDrop.droparea).nth(droparea - 1);
-}
+};
 
 
 getDraggableItem():Locator{
@@ -371,79 +371,79 @@ getDraggableItem():Locator{
 };
 
 
-getItemFromDropArea(dropArea: number):Locator{
+getItemFromDropArea(dropArea: number): Locator{
     // return this.getDropArea(dropArea).and(this.page.locator("#draggable-item"));
-    let loc: Locator
+    let loc: Locator;
     if(dropArea == 1){
-        loc = this.page.locator("#drop-area #draggable-item")
-    } 
+        loc = this.page.locator("#drop-area #draggable-item");
+    }
     if(dropArea == 2){
-        loc = this.page.locator("#drop-area1 #draggable-item")
-    } 
+        loc = this.page.locator("#drop-area1 #draggable-item");
+    }
     if(dropArea == 3){
-        loc = this.page.locator("#drop-area2 #draggable-item")
+        loc = this.page.locator("#drop-area2 #draggable-item");
     } 
     if(dropArea == 4){
-        loc = this.page.locator("#drop-area3 #draggable-item")
+        loc = this.page.locator("#drop-area3 #draggable-item");
     }
      
-    return loc
+    return loc;
 };
 
 //Dropdown scroll
 
-getDropdownScrollCardLink(){
-    return this.page.locator("label[for='14']")
-}
+getDropdownScrollCardLink(): Locator{
+    return this.page.locator("label[for='14']");
+};
 
 
-getDropDownScrollMenu(){
-    return this.page.locator(".dropdown-scroll-container-select")
-}
+getDropDownScrollMenu(): Locator{
+    return this.page.locator(".dropdown-scroll-container-select");
+};
 
 
 getDropdownItem(item: string){
-    return this.page.locator(".dropdown-scroll-container-options-item p").getByText(item)
-}
+    return this.page.locator(".dropdown-scroll-container-options-item p").getByText(item);
+};
 
 
-getDropdownMenuItem(){
-    return this.page.locator(".dropdown-scroll-container-select p")
-}
+getDropdownMenuItem(): Locator{
+    return this.page.locator(".dropdown-scroll-container-select p");
+};
 
 //Preview File
 
 
-getPreviewFileCardLink(){
-    return this.page.locator("label[for='15']")
-}
+getPreviewFileCardLink(): Locator{
+    return this.page.locator("label[for='15']");
+};
 
 
-getClickMeButton(){
-    return this.page.locator(".preview-file .btn-link-slot")
-}
+getClickMeButton(): Locator{
+    return this.page.locator(".preview-file .btn-link-slot");
+};
 
 //Scroll to element
 
 
-getScrollToElementCardLink(){
-    return this.page.locator("label[for='17']")
-}
+getScrollToElementCardLink(): Locator{
+    return this.page.locator("label[for='17']");
+};
 
 
-getScrollToElementToBottomButton(){
-    return this.page.locator("#scroll-to-element-button")
-}
+getScrollToElementToBottomButton(): Locator{
+    return this.page.locator("#scroll-to-element-button");
+};
 
 
-getScrollToElementToTopButton(){
-    return this.page.locator("button.back-to-element .btn-slot")
-}
+getScrollToElementToTopButton(): Locator{
+    return this.page.locator("button.back-to-element .btn-slot");
+};
 
 
-getScrolledElement(){
-    return this.page.locator(".scroll-to-element h4")
-}
+getScrolledElement(): Locator{
+    return this.page.locator(".scroll-to-element h4");
+};
 
 
 
@@ -451,164 +451,210 @@ getScrolledElement(){
 
 //Sortable list
 
-getSortableListLink(){
-    return this.page.locator("label[for='18']")
-}
+getSortableListLink(): Locator{
+    return this.page.locator("label[for='18']");
+};
 
-getListItem(text: string){
-    return this.page.locator(".sort-list li").getByText(text)
-}
+getListItem(text: string): Locator{
+    return this.page.locator(".sort-list li").getByText(text);
+};
 
-getItemList(){
-    return this.page.locator(".sort-list li")
-}
+getItemList(): Locator{
+    return this.page.locator(".sort-list li");
+};
 
 
-getResetButton(){
-    return this.page.locator(".sort-list .btn-slot")
-}
+getResetButton(): Locator{
+    return this.page.locator(".sort-list .btn-slot");
+};
 
 //Multi Level Dropdown
 
-getMultiLevelDropdownCardLink(){
-    return this.page.locator("label[for='22']")
-}
+getMultiLevelDropdownCardLink(): Locator{
+    return this.page.locator("label[for='22']");
+};
 
 
-getAnimal(animal:string){
-    return this.page.locator("//p[normalize-space()='" + animal + "']")
-}
+getAnimal(animal:string): Locator{
+    return this.page.locator("//p[normalize-space()='" + animal + "']");
+};
 
 
 getSelectorAnimals():string{
-    return "body > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(1)"
-}
+    return "body > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(1)";
+};
 
 
 getSelectorCanis():string{
-    return "body > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > p:nth-child(1)"
-}
-
-
-getLocator(selector): Locator{
-    return this.page.locator(selector)
-}
-
+    return "body > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > p:nth-child(1)";
+};
 
 
 //Upload File field
 
-getUploadFileFieldCardLink(){
-    return this.page.locator("label[for='23']")
-}
+getUploadFileFieldCardLink(): Locator{
+    return this.page.locator("label[for='23']");
+};
 
-getUploadField(){
-    return this.page.locator(selectors.uiPlayground.components.other.uploadFileField.uploadFile)
-}
+getUploadField(): Locator{
+    return this.page.locator(selectors.uiPlayground.components.other.uploadFileField.uploadFile);
+};
 
-getDownloadOversizedFile(){
-    return this.page.locator(selectors.uiPlayground.components.other.uploadFileField.downloadButtons).nth(1)
-}
+getDownloadOversizedFile(): Locator{
+    return this.page.locator(selectors.uiPlayground.components.other.uploadFileField.downloadButtons).nth(1);
+};
 
-getDownloadAllowedSizeFile(){
-    return this.page.locator(selectors.uiPlayground.components.other.uploadFileField.downloadButtons).nth(2)
-}
+getDownloadAllowedSizeFile(): Locator{
+    return this.page.locator(selectors.uiPlayground.components.other.uploadFileField.downloadButtons).nth(2);
+};
 
-getUploadError(){
-    return this.page.locator(selectors.uiPlayground.components.other.uploadFileField.uploadError)
-}
+getUploadError(): Locator{
+    return this.page.locator(selectors.uiPlayground.components.other.uploadFileField.uploadError);
+};
  //Table
 
- getTableCardLink(){
-    return this.page.locator("label[for='24']")
-}
+ getTableCardLink(): Locator{
+    return this.page.locator("label[for='24']");
+};
 
 
-getTableInstructor(){
-    return this.page.locator("th:nth-child(1)")
-}
+getTableInstructor(): Locator{
+    return this.page.locator("th:nth-child(1)");
+};
 
 
-getTableCourse(){
-    return this.page.locator("th:nth-child(2)")
-}
+getTableCourse(): Locator{
+    return this.page.locator("th:nth-child(2)");
+};
 
 
-getTablePrice(){
-    return this.page.locator("th:nth-child(3)")
-}
+getTablePrice(): Locator{
+    return this.page.locator("th:nth-child(3)");
+};
 
 
-getRowsPerPage(){
-    return this.page.locator(".pagination_select")
-}
+getRowsPerPage(): Locator{
+    return this.page.locator(".pagination_select");
+};
 
 
-getAllInstructors(){
-    return this.page.locator("td:nth-child(1)")
-}
+getAllInstructors(): Locator{
+    return this.page.locator("td:nth-child(1)");
+};
 
-async getTableRows(){
-    return await this.page.locator(".table-wrapper tbody tr")
-}
-getAllCourses(){
-    return this.page.locator("td:nth-child(2)")
-}
+getTableRows(): Locator{
+    return this.page.locator(".table-wrapper tbody tr");
+};
+getAllCourses(): Locator{
+    return this.page.locator("td:nth-child(2)");
+};
 
-getAllPrices(){
-    return this.page.locator("td:nth-child(3)")
-}
+getAllPrices(): Locator{
+    return this.page.locator("td:nth-child(3)");
+};
 
-getInstructors(i: number){
-    return this.page.locator("tbody tr:nth-child(" + i + ") td:nth-child(1)")
-}
+getInstructors(i: number): Locator{
+    return this.page.locator("tbody tr:nth-child(" + i + ") td:nth-child(1)");
+};
 
-
-getCourses(i: number){
-    return this.page.locator("tbody tr:nth-child(" + i + ") td:nth-child(2)")
-}
-
-
-getPrices(i: number){
-    return this.page.locator("tbody tr:nth-child(" + i + ") td:nth-child(3)")
-}
+getCourses(i: number): Locator{
+    return this.page.locator("tbody tr:nth-child(" + i + ") td:nth-child(2)");
+};
 
 
-getRows(){
-    return this.page.locator("tbody tr")
-}
+getPrices(i: number): Locator{
+    return this.page.locator("tbody tr:nth-child(" + i + ") td:nth-child(3)");
+};
+
+
+getRows(): Locator{
+    return this.page.locator("tbody tr");
+};
 
 
 //Send Message
 
-getSendMessageCardLink(){
-    return this.page.locator("label[for='28']")
-}
+getSendMessageCardLink(): Locator{
+    return this.page.locator("label[for='28']");
+};
 
-getMessage(){
-    return this.page.locator(selectors.uiPlayground.components.other.sendMessage.message)
-}
+getMessage(): Locator{
+    return this.page.locator(selectors.uiPlayground.components.other.sendMessage.message);
+};
 
-getSendButton(){
-    return this.page.locator(selectors.uiPlayground.components.other.sendMessage.buttons).nth(0)
-}
+getSendButton(): Locator{
+    return this.page.locator(selectors.uiPlayground.components.other.sendMessage.buttons).nth(0);
+};
 
-getClearButton(){
-    return this.page.locator(selectors.uiPlayground.components.other.sendMessage.buttons).nth(1)
-}
+getClearButton(): Locator{
+    return this.page.locator(selectors.uiPlayground.components.other.sendMessage.buttons).nth(1);
+};
 
 
 
 //To-Do List
 
-getToDoListCardLink(){
-    return this.page.locator("label[for='30']")
+getToDoListCardLink(): Locator{
+    return this.page.locator("label[for='30']");
+};
+
+
+getInputTaskField():Locator{
+    return this.page.locator(selectors.uiPlayground.components.other.toDoList.inputTask);
+};
+
+getAddTask():Locator{
+    return this.page.locator(selectors.uiPlayground.components.other.toDoList.add);
+};
+
+async getTaskNames(){
+    return  await this.page.locator(selectors.uiPlayground.components.other.toDoList.taskName).all();
+};
+
+getAddedTask(): Locator{
+    return  this.page.locator(selectors.uiPlayground.components.other.toDoList.taskName).last();
+};
+
+getTask(task: string): Locator{
+    return this.page.locator(selectors.uiPlayground.components.other.toDoList.tasks).filter({hasText:task}).locator(selectors.uiPlayground.components.other.toDoList.taskName);
+};
+
+getEditTask(task: string):Locator{
+    return this.page.locator(selectors.uiPlayground.components.other.toDoList.tasks).filter({hasText:task}).locator(selectors.uiPlayground.components.other.toDoList.edit);
+};
+
+getDeleteTask(task: string):Locator{
+    return this.page.locator(selectors.uiPlayground.components.other.toDoList.tasks).filter({hasText:task}).locator(selectors.uiPlayground.components.other.toDoList.delete);
 }
+
+getNumberOfTasks():Locator{
+    return this.page.locator(selectors.uiPlayground.components.other.toDoList.numberOfTasks);
+};
+
+
 
 //Timer
 
-getTimerCardLink(){
-    return this.page.locator("label[for='31']")
-}
+getTimerCardLink(): Locator{
+    return this.page.locator("label[for='31']");
+};
 
-}
+
+
+getTimerCountdown(): Locator{
+    return this.page.locator(selectors.uiPlayground.components.other.timer.countdown);
+};
+
+getStartTime(): Locator{
+    return this.page.locator(selectors.uiPlayground.components.other.timer.start);
+};
+
+getDecreaseCountdown(): Locator{
+    return this.page.locator(selectors.uiPlayground.components.other.timer.controls).nth(0);
+};
+
+getIncreaseCountdown(): Locator{
+    return this.page.locator(selectors.uiPlayground.components.other.timer.controls).nth(1);
+};
+
+};

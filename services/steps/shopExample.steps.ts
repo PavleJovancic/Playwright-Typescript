@@ -90,7 +90,7 @@ export default class ShopSteps{
         expect(resetedTitles).toEqual(unsortedTitles);
     };
 
-    async setSliderTo(range){
+    async setSliderTo(range: number){
         await this.shop.getRange().fill(String(range));
         let itemPrices = await this.shop.getItemPrices();
         itemPrices.forEach( text=>{
@@ -100,7 +100,7 @@ export default class ShopSteps{
     };
 
     async clickOutOfStockButton(){
-        let buttons = await (await this.shop.getItemButtons());
+        let buttons = await this.shop.getItemButtons();
         buttons.forEach(async button => {
             if(await button.textContent() == "Out of stock"){
                 expect(button).toBeDisabled();
@@ -136,7 +136,7 @@ export default class ShopSteps{
         expect(cartIconNumber).toEqual(num);
     };
 
-    async subotalPrice(){
+    async subtotalPrice(){
         this.shop.getCartIcon().click();
     };
 
@@ -144,37 +144,37 @@ export default class ShopSteps{
         await this.shop.getCartIcon().click();
     };
 
-    async price(item){
+    async price(item: string){
         let text =  await this.shop.getSubtotalPrice(item).innerText();
         let price = Number(text.replace(',','').slice(0, - 1));
         return price;
     };
 
-    async increaseItemAmount(item){
+    async increaseItemAmount(item: string){
         let text =(await this.shop.getPrice(item).innerText());
-        let initalPrice = Number(text.substring(7, text.length -1));
+        let initialPrice = Number(text.substring(7, text.length -1));
         let subtotal = (await this.price(item));
         await this.shop.getIncreaseQuantity(item).click();
-        let sum = subtotal + initalPrice;
+        let sum = subtotal + initialPrice;
         expect(await this.price(item)).toBe(Number(sum.toFixed(2)));      
     };
 
-    async decreaseItemAmount(item){
+    async decreaseItemAmount(item: string){
         let text =(await this.shop.getPrice(item).innerText());
-        let initalPrice = Number(text.substring(7, text.length -1));
+        let initialPrice = Number(text.substring(7, text.length -1));
         let subtotal = (await this.price(item));
         await this.shop.getDecreaseQuantity(item).click();
-        let subtract = subtotal - initalPrice;
+        let subtract = subtotal - initialPrice;
         expect(await this.price(item)).toBe(Number(subtract.toFixed(2)));
     };
 
     async calculateTotalPrice(){
         
-        let subotalPrices = await this.shop.getSubtotalPrices();
+        let subtotalPrices = await this.shop.getSubtotalPrices();
     
         let sum = 0;
-        await subotalPrices.forEach(async (el) => {
-            let price = await Number(el.replace(',','').slice(0, - 1));
+        subtotalPrices.forEach(async (el) => {
+            let price = Number(el.replace(',','').slice(0, - 1));
             sum = sum + price;
             let fixed = sum.toFixed(2);
             sum = Number(fixed);

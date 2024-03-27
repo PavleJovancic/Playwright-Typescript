@@ -13,7 +13,7 @@ import * as urls from '../test-data/urls.json';
 import * as loginData from '../test-data/loginInformation.json';
 
 
-test.describe("Components Menu tests", () => {
+test.describe("Components Menu tests @componentsMenu", () => {
     let componentsMenuSteps: ComponentsMenuSteps,
         loginPage: Login,
         loginSteps: LoginSteps,
@@ -42,7 +42,7 @@ test.describe("Components Menu tests", () => {
         await page.goto(urls.uiPlayground, {waitUntil:'domcontentloaded'});
         await loginSteps.login(loginData.email, loginData.password);
         // page.waitForTimeout(10000)
-    })
+    });
 
     test("Components Menu ", async () => {
         componentsMenuSteps.clickCloseMenuButton();
@@ -68,9 +68,9 @@ test.describe("Components Menu tests", () => {
         await componentsMenuSteps.openCard(data.uploadFileButton);
 
         await buttonsSteps.selectAllButtons();
-        await componentsMenuSteps.cardsAreOpened(false, data.buttons);
+        await componentsMenuSteps.cardsAreOpened(false, data.buttonsList);
         await buttonsSteps.selectAllButtons();
-        await componentsMenuSteps.cardsAreOpened(true, data.buttons);
+        await componentsMenuSteps.cardsAreOpened(true, data.buttonsList);
        
         
     });
@@ -87,9 +87,9 @@ test.describe("Components Menu tests", () => {
         await componentsMenuSteps.openCard(data.enterVerificationCode);
 
         await inputsSteps.selectAllInputs();
-        await componentsMenuSteps.cardsAreOpened(false, data.inputs);
+        await componentsMenuSteps.cardsAreOpened(false, data.inputsList);
         await inputsSteps.selectAllInputs();
-        await componentsMenuSteps.cardsAreOpened(true, data.inputs);
+        await componentsMenuSteps.cardsAreOpened(true, data.inputsList);
        
         
     });
@@ -102,9 +102,9 @@ test.describe("Components Menu tests", () => {
         
 
         await modalsSteps.selectAllModals();
-        await componentsMenuSteps.cardsAreOpened(false, data.modals);
+        await componentsMenuSteps.cardsAreOpened(false, data.modalsList);
         await modalsSteps.selectAllModals();
-        await componentsMenuSteps.cardsAreOpened(true, data.modals);
+        await componentsMenuSteps.cardsAreOpened(true, data.modalsList);
        
         
     });
@@ -117,9 +117,9 @@ test.describe("Components Menu tests", () => {
         await componentsMenuSteps.openCard(data.menu);
 
         await menusSteps.selectAllMenus();
-        await componentsMenuSteps.cardsAreOpened(false, data.menus);
+        await componentsMenuSteps.cardsAreOpened(false, data.menusList);
         await menusSteps.selectAllMenus();
-        await componentsMenuSteps.cardsAreOpened(true, data.menus);
+        await componentsMenuSteps.cardsAreOpened(true, data.menusList);
        
         
     });
@@ -134,7 +134,7 @@ test.describe("Components Menu tests", () => {
         await componentsMenuSteps.openCard(data.previewFile);
         await componentsMenuSteps.openCard(data.scrollToElement);
         await componentsMenuSteps.openCard(data.sortableList);
-        await componentsMenuSteps.openCard(data.mulitLevelDropdown);
+        await componentsMenuSteps.openCard(data.multiLevelDropdown);
         await componentsMenuSteps.openCard(data.uploadFileField);
         await componentsMenuSteps.openCard(data.table);
         await componentsMenuSteps.openCard(data.sendMessage);
@@ -142,9 +142,9 @@ test.describe("Components Menu tests", () => {
         await componentsMenuSteps.openCard(data.timer);
 
         await otherSteps.selectAllOthers();
-        await componentsMenuSteps.cardsAreOpened(false, data.other);
+        await componentsMenuSteps.cardsAreOpened(false, data.otherList);
         await otherSteps.selectAllOthers();
-        await componentsMenuSteps.cardsAreOpened(true, data.other);
+        await componentsMenuSteps.cardsAreOpened(true, data.otherList);
        
         
     });

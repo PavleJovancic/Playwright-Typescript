@@ -18,10 +18,10 @@ export default class ButtonsSteps{
     async checkVisibilityOfComponentsMenu(visibility: string){
     
         if(visibility == "visible"){
-            await expect(this.playground.getShrinkedComponentsMenu()).toBeHidden();
+            await expect(this.playground.getShrunkComponentsMenu()).toBeHidden();
         } 
         if(visibility == "hidden") {
-            await expect(this.playground.getShrinkedComponentsMenu()).toBeVisible();
+            await expect(this.playground.getShrunkComponentsMenu()).toBeVisible();
         }        
     };
 
@@ -52,10 +52,10 @@ export default class ButtonsSteps{
 
     
 
-    cardsAreOpened(condition: boolean,cards: string[]){
+    async cardsAreOpened(condition: boolean,cards: string[]){
         let titles = [];
         titles = this.playground.getCardTitles(cards);
-        this.page.waitForTimeout(1000);
+        await this.page.waitForTimeout(1000);
         if(condition === true){
             titles.forEach((title) => {
                 expect(title).toBeVisible();
@@ -63,15 +63,12 @@ export default class ButtonsSteps{
         } else {
             titles.forEach((title) => {
                 expect(title).toBeHidden();
-            })
+            });
         };
         
     };
+
+    
     
 
-
-
-
-
-
-}
+};

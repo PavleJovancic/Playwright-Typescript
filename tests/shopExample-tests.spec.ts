@@ -34,7 +34,7 @@ test.describe("Shop Example ", () => {
         await shopSteps.sortPriceHighToLow();
     });
 
-    test("Sorting dropdown - Name: Alphabetically @shop", async () => {
+    test("Sorting dropdown - Name: Alphabetically", async () => {
         await shopSteps.sortAlphabetically();
     });
 

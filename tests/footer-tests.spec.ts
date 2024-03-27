@@ -30,6 +30,7 @@ test.describe("Footer @footer", () => {
         await page.goto(urls.login, {waitUntil: 'domcontentloaded'});
         await loginSteps.login(loginData.email, loginData.password);
         await headerSteps.clickLogo();
+        await page.waitForTimeout(2000)
         //Flaky works 70%, if not just click END manually
         await page.keyboard.press('End');
         await page.keyboard.press('End');

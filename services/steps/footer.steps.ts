@@ -61,8 +61,8 @@ export default class FooterSteps{
     };
 
     async closeTab(){
-        let allpages = this.page.context().pages();
-        await allpages[1].close();
+        let allPages = this.page.context().pages();
+        await allPages[1].close();
     };
 
     async openHomeLink(){
@@ -96,7 +96,7 @@ export default class FooterSteps{
         await this.verifyCorrectPage(urls.whiteboard);
     };
 
-    async verifyCorrectPage(url){
+    async verifyCorrectPage(url: string){
         await expect(this.page).toHaveURL(url);
     };
 
